@@ -92,7 +92,7 @@ House.create({
     house_color: 'Red',
     house_saint: 'St. Jean Baptiste LaSalle',
     house_motto_latin: "INCITATOR A DEI CARITATE" 
-    #, saint_feast_day: 'August 14' UPDATE
+    #, saint_feast_day: 'April 7' 
 })
 
 House.create({
@@ -108,7 +108,7 @@ House.create({
     house_color: 'Gray',
     house_saint: 'St. Elizabeth Ann Bayley Seton',
     house_motto_latin: "(St. Seton was a native English speaker)" 
-    #, saint_feast_day: 'August 14' UPDATE
+    #, saint_feast_day: 'January 4'
 })
 
 House.create({
@@ -124,5 +124,5 @@ House.create({
     house_color: 'navy blue',
     house_saint: 'St. John Vianney',
     house_motto_latin: "Fortitudine Vincimus" 
-    #, saint_feast_day: 'August 14' UPDATE
+    #, saint_feast_day: 'August 9' 
 })
