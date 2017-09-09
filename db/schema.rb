@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170909023334) do
+ActiveRecord::Schema.define(version: 20170909060012) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 20170909023334) do
     t.string "house_color"
     t.string "house_saint"
     t.string "house_motto_latin"
+    t.datetime "saint_feast_day"
   end
 
 end
