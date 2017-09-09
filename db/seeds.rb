@@ -23,7 +23,7 @@ House.create({
     house_of_the_month?: false,
     house_of_the_year?: false,
     house_motto: "Learning…Truth…Faith…Strength",
-    house_mascot: 'The Ox',
+    house_mascot: 'Aquinas Ox',
     house_color: 'light blue',
     house_saint: 'St. Thomas Aquinas',
     house_motto_latin: "Doctrina…Veritas…Fides…Vis"
@@ -89,7 +89,7 @@ House.create({
     house_of_the_year?: false,
     house_motto: "Be Driven by the Love of God",
     house_mascot: 'Lasalle Lion',
-    house_color: 'Red',
+    house_color: 'red',
     house_saint: 'St. Jean Baptiste LaSalle',
     house_motto_latin: "INCITATOR A DEI CARITATE" 
     #, saint_feast_day: 'April 7' 
@@ -105,9 +105,9 @@ House.create({
     house_of_the_year?: false,
     house_motto: "Live simply that others may simply live.",
     house_mascot: 'Seton Wolf',
-    house_color: 'Gray',
+    house_color: 'gray',
     house_saint: 'St. Elizabeth Ann Bayley Seton',
-    house_motto_latin: "(St. Seton was a native English speaker)" 
+    house_motto_latin: "(no foreign translation)" #could do an if != to "Seton House" for displaying translation
     #, saint_feast_day: 'January 4'
 })
 
@@ -126,3 +126,21 @@ House.create({
     house_motto_latin: "Fortitudine Vincimus" 
     #, saint_feast_day: 'August 9' 
 })
+
+House.create({
+    name: "Xavier House",
+    description: "St. Francis Xavier was born in the family castle in Spain in 1506. He became one of the seven founders of the Society of Jesus (the Jesuits) with St. Ignatius of Loyola in 1534. He did extensive missionary work in south Asia and the Far East and is the patron saint of Catholic missionaries. He died in 1552. His feast day is celebrated on December 3rd. Why do we wear the cross and the crab? On one of his missionary journeys by boat, St. Francis Xavier was in a storm. He threw his cross into the sea invoking God's help in calming the water, and the sea was calmed. Later when they came ashore, they discovered a crab carrying the cross!",
+    picture_url: "http://www.btcatholic.org/upload/Vianney_house/vianney.jpg",
+    points: 0,
+    house_leader: "unknown",
+    house_of_the_month?: false,
+    house_of_the_year?: false,
+    house_motto: "For the Greater Glory of God",
+    house_mascot: 'Xavier Cross and Crab',
+    house_color: 'purple',
+    house_saint: 'St. John Vianney',
+    house_motto_latin: "Ad Majorem Dei Gloriam" 
+    #, saint_feast_day: 'December 3' 
+})
+
+# potentially change descriptions to arrays and unpack each index as a paragraph for best appearance
