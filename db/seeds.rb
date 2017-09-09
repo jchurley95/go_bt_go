@@ -6,6 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Event.destroy_all
+House.destroy_all
+
+House.create({name: "Aquinas", })
 
 Event.create({name: "JV Softball", description: "JV Softball vs. Marist", points: 10})
 Event.create({name: "Freshman Basketball", description: "Freshman Basketball vs. St. Pius X", points: 10})
