@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170909060012) do
+ActiveRecord::Schema.define(version: 20170910062909) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20170909060012) do
     t.integer "points"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "type_of_event"
   end
 
   create_table "houses", force: :cascade do |t|
@@ -40,6 +41,11 @@ ActiveRecord::Schema.define(version: 20170909060012) do
     t.string "house_saint"
     t.string "house_motto_latin"
     t.datetime "saint_feast_day"
+  end
+
+  create_table "schedules", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
