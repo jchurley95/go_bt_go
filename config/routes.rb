@@ -1,3 +1,13 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  namespace :api do
+    resources :event_dates do
+      resources :events
+    end
+  end
+
+  namespace :api do
+    resources :houses do
+      resources :families
+    end
+  end
 end

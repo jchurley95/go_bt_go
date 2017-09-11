@@ -10,10 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170910062909) do
+ActiveRecord::Schema.define(version: 20170911153943) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "event_dates", force: :cascade do |t|
+    t.datetime "event_date"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "events", force: :cascade do |t|
     t.string "name"
@@ -25,12 +31,18 @@ ActiveRecord::Schema.define(version: 20170910062909) do
     t.string "type_of_event"
   end
 
+  create_table "families", force: :cascade do |t|
+    t.integer "points"
+    t.string "family_mentor"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "houses", force: :cascade do |t|
     t.string "name"
     t.string "description"
     t.string "picture_url"
     t.integer "points"
-    t.string "house_leader"
     t.boolean "house_of_the_month?"
     t.boolean "house_of_the_year?"
     t.datetime "created_at", null: false
@@ -41,11 +53,7 @@ ActiveRecord::Schema.define(version: 20170910062909) do
     t.string "house_saint"
     t.string "house_motto_latin"
     t.datetime "saint_feast_day"
-  end
-
-  create_table "schedules", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string "house_director_name"
   end
 
 end
