@@ -8,10 +8,10 @@
 Event.destroy_all
 House.destroy_all
 
-Event.create({name: "JV Softball", description: "JV Softball vs. Marist", points: 10})
-Event.create({name: "Freshman Basketball", description: "Freshman Basketball vs. St. Pius X", points: 10})
-Event.create({name: "Varisty Football", description: "Varisty Football vs. Buford", points: 10})
-Event.create({name: "School Play", description: "Sweeney Todd", points: 10})
+# Event.create({name: "JV Softball", description: "JV Softball vs. Marist", points: 10})
+# Event.create({name: "Freshman Basketball", description: "Freshman Basketball vs. St. Pius X", points: 10})
+# Event.create({name: "Varisty Football", description: "Varisty Football vs. Buford", points: 10})
+# Event.create({name: "School Play", description: "Sweeney Todd", points: 10})
 
 House.create({
     name: "Aquinas House",
@@ -19,7 +19,7 @@ House.create({
     St. Thomas Aquinas is the patron of Catholic universities and schools. He is also the patron saint of all Catholic students. His feast day is celebrated on January 28.',
     picture_url: "http://www.btcatholic.org/upload/Aquinas_house/Picture.jpg",
     points: 0,
-    house_leader: "unknown",
+    house_director_name: "Preston Bazemore",
     house_of_the_month?: false,
     house_of_the_year?: false,
     house_motto: "Learning…Truth…Faith…Strength",
@@ -36,7 +36,7 @@ House.create({
     He was banished from his beloved hometown in 1301 and went into exile in Verona, where he settled to write the Divine Comedy. It went on to become one of the most famous pieces of religious poetry, earning popularity both immediate and lasting while defining modern and archaic views of the Catholic afterlife. St. Michael the Archangel - Feast day - September 29th The name Michael signifies "Who is like to God?" and was the war cry of the good angels in the battle fought in heaven against Satan and his followers. Holy Scripture describes St. Michael as "one of the chief princes," and leader of the forces of heaven in their triumph over the powers of Satan. He has been especially honored and invoked as patron and protector by the Church from the time of the Apostles. St. Michael is the patron of grocers, mariners, paratroopers, police and sickness.',
     picture_url: "http://www.btcatholic.org/upload/miller_joe/St.MichaelIconImage.jpg",
     points: 0,
-    house_leader: "unknown",
+    house_director_name: "Joe Miller",
     house_of_the_month?: false,
     house_of_the_year?: false,
     house_motto: "A Great Flame Follows A Tiny Spark",
@@ -52,7 +52,7 @@ House.create({
     description: "St. Maria Goretti, the patron Saint of youth, young women, purity, and victims of rape (b: 1890 d: 1902). Born in Corinaldo, Ancona, Italy, on October 16, 1890. In 1902 an 18-year-old neighbor, Alexander, grabbed her from her steps and tried to rape her. When Maria said that she would rather die than submit, Alexander began stabbing her with a knife.  As she lay in the hospital, she forgave Alexander before she died. Her death didn't end her forgiveness, however. Alexander was captured and sentenced to thirty years. He was unrepentant until he had a dream that he was in a garden. Maria was there and gave him flowers. When he woke, he was a changed man, repenting of his crime and living a reformed life. When he was released after 27 years, he went directly to Maria's mother to beg her forgiveness, which she gave. 'If my daughter can forgive him, who am I to withhold forgiveness,' she said. Maria was declared a saint in 1950 and her attacker Alexander was there to celebrate her canonization. Her feast day is July 6.",
     picture_url: "http://www.btcatholic.org/upload/freeman_rachel/stmariagoretti.jpg",
     points: 0,
-    house_leader: "unknown",
+    house_director_name: "Liz McFarland",
     house_of_the_month?: false,
     house_of_the_year?: false,
     house_motto: "Purity, Faith and Forgiveness",
@@ -68,7 +68,7 @@ House.create({
     description: "Saint Maximilian Kolbe (January 8 1894-August 14 1941) was a Conventual Franciscan friar who volunteered to die in place of a stranger in the German death camp of Auschwitz, located in German occupied Poland during World War II.",
     picture_url: "http://www.btcatholic.org/upload/keel_alan/stmaximiliankolbe.jpg",
     points: 0,
-    house_leader: "unknown",
+    house_director_name: "Alan Keel",
     house_of_the_month?: false,
     house_of_the_year?: false,
     house_motto: "He Chose Both",
@@ -84,7 +84,7 @@ House.create({
     description: "St. Jean Baptiste LaSalle (1651-1719) was a French Priest who dedicated more than 40 years to the education of poor children. He began as the spiritual director of a poor girl's school and later helped to start a poor boy's school. He then founded the first school dedicated to teachers as well as numerous high schools.",
     picture_url: "http://www.btcatholic.org/upload/parker_meredith/St.JeanLaSalle.jpg",
     points: 0,
-    house_leader: "unknown",
+    house_director_name: "Meredith Parker",
     house_of_the_month?: false,
     house_of_the_year?: false,
     house_motto: "Be Driven by the Love of God",
@@ -100,7 +100,7 @@ House.create({
     description: "Elizabeth Ann Bayley Seton (1774 – 1821) is the first American-born female saint. She was raised in a Protestant family and, along with her sister-in-law, performed charitable works which garnered them the name of the “Protestant Sisters of Charity.” After her husband William Seton took ill, she accompanied him on a voyage in an effort to improve his health. They spent time in Italy, where William passed away; however, it was during her time in Italy that Elizabeth gained a great appreciation for the Catholic Church. Elizabeth was baptized into the Church on March 14, 1805, and received her First Communion on March 25. It was said that she relished Communion so much that she attended Mass twice on Sundays to receive it. She began her career in religious education in 1808 in Baltimore where she opened a school for underprivileged children. The next year, she established the Sisters of Charity of which she served as the mother superior for many years as Catholic education spread across the United States. In 1814, Mother Seton and the Sisters of Charity began operating the nation’s first Catholic orphanage in Philadelphia. She enjoyed her involvement in Catholic education until her death. Seton was beatified in 1963, and Pope John Paul II canonized her on September 14, 1975.",
     picture_url: "http://www.btcatholic.org/upload/Seton_house/ElizabethAnnSeton.gif",
     points: 0,
-    house_leader: "unknown",
+    house_director_name: "Jonathan Grattan",
     house_of_the_month?: false,
     house_of_the_year?: false,
     house_motto: "Live simply that others may simply live.",
@@ -116,7 +116,7 @@ House.create({
     description: "Elizabeth Ann Bayley Seton (1774 – 1821) is the first American-born female saint. She was raised in a Protestant family and, along with her sister-in-law, performed charitable works which garnered them the name of the “Protestant Sisters of Charity.” After her husband William Seton took ill, she accompanied him on a voyage in an effort to improve his health. They spent time in Italy, where William passed away; however, it was during her time in Italy that Elizabeth gained a great appreciation for the Catholic Church. Elizabeth was baptized into the Church on March 14, 1805, and received her First Communion on March 25. It was said that she relished Communion so much that she attended Mass twice on Sundays to receive it. She began her career in religious education in 1808 in Baltimore where she opened a school for underprivileged children. The next year, she established the Sisters of Charity of which she served as the mother superior for many years as Catholic education spread across the United States. In 1814, Mother Seton and the Sisters of Charity began operating the nation’s first Catholic orphanage in Philadelphia. She enjoyed her involvement in Catholic education until her death. Seton was beatified in 1963, and Pope John Paul II canonized her on September 14, 1975.",
     picture_url: "http://www.btcatholic.org/upload/Vianney_house/vianney.jpg",
     points: 0,
-    house_leader: "unknown",
+    house_director_name: "Brandon Harwell",
     house_of_the_month?: false,
     house_of_the_year?: false,
     house_motto: "By endurance we conquer",
@@ -132,7 +132,7 @@ House.create({
     description: "St. Francis Xavier was born in the family castle in Spain in 1506. He became one of the seven founders of the Society of Jesus (the Jesuits) with St. Ignatius of Loyola in 1534. He did extensive missionary work in south Asia and the Far East and is the patron saint of Catholic missionaries. He died in 1552. His feast day is celebrated on December 3rd. Why do we wear the cross and the crab? On one of his missionary journeys by boat, St. Francis Xavier was in a storm. He threw his cross into the sea invoking God's help in calming the water, and the sea was calmed. Later when they came ashore, they discovered a crab carrying the cross!",
     picture_url: "http://www.btcatholic.org/upload/Vianney_house/vianney.jpg",
     points: 0,
-    house_leader: "unknown",
+    house_director_name: "Toni Vilardi",
     house_of_the_month?: false,
     house_of_the_year?: false,
     house_motto: "For the Greater Glory of God",
