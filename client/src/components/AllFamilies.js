@@ -4,6 +4,9 @@ import FamilyCard from './FamilyCard';
 import styled from 'styled-components';
 
 const FamilyListContainer = styled.div`
+    display: flex;
+    flex-wrapper: wrap;
+    justify-content: center;
 `
 
 class AllFamilies extends Component {
@@ -39,13 +42,11 @@ class AllFamilies extends Component {
                 <h1>Families</h1>
                 
                 <FamilyListContainer>
-                    <ol>
-                        {this.state.families.map((family) => {
-                            
-                            return <FamilyCard family={family} key={family.id}/>
+                    {this.state.families.map((family) => {
                         
-                        })}
-                    </ol> 
+                        return <FamilyCard family={family} key={family.id}/>
+                    
+                    })}
                 </FamilyListContainer>
                 
             </div>

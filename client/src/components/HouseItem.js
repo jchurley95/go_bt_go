@@ -2,10 +2,17 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import {Link, Redirect} from 'react-router-dom'
 import styled from 'styled-components';
+import FamilyCard from './FamilyCard'
 
 const HouseItemHeader = styled.div`
     border: 2px solid black;
     border-radius: 10px;
+`
+
+const FamilyListContainer = styled.div`
+// display: flex;
+// flex-wrapper: wrap;
+// justify-content: center;
 `
 
 class HouseItem extends Component {
@@ -19,14 +26,14 @@ class HouseItem extends Component {
     }
 
     componentWillMount(){
-        this._fetchArtistAndSongs();
+        this._fetchHouseAndFamilies();
     }
 
-    _fetchArtistAndSongs = async () => {
+    _fetchHouseAndFamilies = async () => {
         const id = this.props.match.params.id;
         const res = await axios.get(`/api/houses/${id}`)
         this.setState({
-            house: res.data,
+            house: res.data.house,
             families: res.data.families
         })
     }
@@ -104,13 +111,16 @@ class HouseItem extends Component {
                         <div><strong>House Mascot:</strong> {this.state.house.house_mascot}</div>
                     </div>
 
-                    <div>
-                        {this.state.families.map(family => {
-                            <div key={family.id}>
-                                <h5>family</h5>
-                            </div>
+                    <FamilyListContainer>
+                        <h3>Families:</h3>
+                        <ol>
+                        {this.state.families.map((family) => {
+                            
+                            return <FamilyCard house={this.state.house} family={family} key={family.id}/>
+                        
                         })}
-                    </div>
+                    </ol> 
+                    </FamilyListContainer>
 
                     <hr />
 
