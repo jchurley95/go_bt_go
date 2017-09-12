@@ -6,8 +6,11 @@ class Api::HousesController < ApplicationController
   
     def show
         @house = House.find params[:id]
-        
-        render json: @house
+        @families = @house.families.all
+        render json: {
+            house: @house,
+            families: @families
+        }
     end
 
     def create

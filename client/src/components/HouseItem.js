@@ -12,63 +12,56 @@ class HouseItem extends Component {
     constructor() {
         super();
         this.state = {
-            house: {
-                name: "",
-                description: "",
-                house_mascot: "",
-                house_motto: "",
-                house_motto_latin: "",
-                picture_url: "",
-                house_director_name: "",
-                points: 0,
-                house_color: ""
-            },
+            house: {},
             families: [],
             redirect: false
         }
     }
 
-    componentWillMount() {
-        const houseId = this.props.match.params.id;
-        this._fetchHouse(houseId);
-        this._fetchFamilies(houseId);
+    componentWillMount(){
+        this._fetchArtistAndSongs();
     }
 
-    _fetchHouse = async (houseId) => {
-        try {
-            const res = await axios.get(`/api/houses/${houseId}`)
-            await this.setState({
-                house: {
-                    name: res.data.name,
-                    description: res.data.description,
-                    house_mascot: res.data.house_mascot,
-                    house_motto: res.data.house_motto,
-                    house_motto_latin: res.data.house_motto_latin,
-                    picture_url: res.data.picture_url,
-                    house_director_name: res.data.house_director_name,
-                    points: res.data.points,
-                    house_color: res.data.house_color
-                }
-            })
-            return res.data
-            console.log(res.data)
-        }
-        catch(err) {
-            console.log(err)
-        }
+    _fetchArtistAndSongs = async () => {
+        const id = this.props.match.params.id;
+        const res = await axios.get(`/api/houses/${id}`)
+        this.setState({
+            house: res.data,
+            families: res.data.families
+        })
     }
 
-    _fetchFamilies = async (houseId) => {
-        try {
-            const res = await axios.get(`/api/houses/${houseId}/families`)
-            await this.setState({families: res.data})
-            return res.data
-            console.log(res.data)
-        }
-        catch(err) {
-            console.log(err)
-        }
-    }
+    // componentWillMount() {
+    //     const houseId = this.props.match.params.id;
+    //     this._fetchHouse(houseId);
+    //     this._fetchFamilies(houseId);
+    // }
+
+    // _fetchHouse = async (houseId) => {
+    //     try {
+    //         const res = await axios.get(`/api/houses/${houseId}`)
+    //         await this.setState({
+    //             house: res.data
+    //         })
+    //         return res.data
+    //         console.log(res.data)
+    //     }
+    //     catch(err) {
+    //         console.log(err)
+    //     }
+    // }
+
+    // _fetchFamilies = async (houseId) => {
+    //     try {
+    //         const res = await axios.get(`/api/houses/${houseId}`)
+    //         await this.setState({families: res.data})
+    //         return res.data.families
+    //         console.log(res.data.families)
+    //     }
+    //     catch(err) {
+    //         console.log(err)
+    //     }
+    // }
 
     _deleteHouse = async (e) => {
         e.preventDefault();
@@ -111,8 +104,16 @@ class HouseItem extends Component {
                         <div><strong>House Mascot:</strong> {this.state.house.house_mascot}</div>
                     </div>
 
+                    <div>
+                        {this.state.families.map(family => {
+                            <div key={family.id}>
+                                <h5>family</h5>
+                            </div>
+                        })}
+                    </div>
+
                     <hr />
-                    
+
                     <div>
                         <Link to={`/houses/${this.props.match.params.id}/edit`}><button>Edit House</button></Link>
                         <br/>
