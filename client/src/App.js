@@ -12,6 +12,10 @@ class App extends Component {
           <div>
             <Route exact path='/' component={AllHouses} />
             <Route exact path='/houses/:id' component={HouseItem} />
+            {/* <Route exact path="/signup" component={SignUp}/>
+            <Route exact path="/signin" component={SignIn}/> */}
+            {/* <Route path="/House/new" component={NewHouse}/> */}
+            {/* <Route exact path="/user/:id" component={UserProfile}/> */}
           </div>
         </Router>
       </div>
