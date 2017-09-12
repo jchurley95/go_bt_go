@@ -10,12 +10,14 @@ class AllHouses extends Component {
     constructor() {
         super();
         this.state = {
-            houses: []
+            houses: [],
+            testData: []
         }
     }
 
     componentWillMount() {
         this._fetchHouses();
+        this._fetchTestData();
     }
 
     _fetchHouses = async () => {
@@ -31,6 +33,18 @@ class AllHouses extends Component {
         }
     }
     
+    _fetchTestData = async () => {
+        try {
+            const res = await axios.get('https://sheetlabs.com/BTHO/bt_house_structure');
+            console.log(res);
+
+            await this.setState({testData: res.data});
+            return res.data;
+        }
+        catch (err) {
+            console.log(err);
+        }
+    }
 
 
     render() {

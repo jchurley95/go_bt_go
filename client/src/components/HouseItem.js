@@ -21,21 +21,37 @@ class HouseItem extends Component {
         this.state = {
             house: {},
             families: [],
+            btHouseData: [],
             redirect: false
         }
     }
 
     componentWillMount(){
         this._fetchHouseAndFamilies();
+        this._fetchBTHouseData();
     }
 
     _fetchHouseAndFamilies = async () => {
         const id = this.props.match.params.id;
         const res = await axios.get(`/api/houses/${id}`)
+        console.log(res.data);
         this.setState({
             house: res.data.house,
             families: res.data.families
         })
+    }
+
+    _fetchBTHouseData = async () => {
+        try {
+            const res = await axios.get('https://sheetlabs.com/BTHO/bt_house_structure');
+            console.log(res.data);
+
+            await this.setState({btHouseData: res.data});
+            return res.data;
+        }
+        catch (err) {
+            console.log(err);
+        }
     }
 
     _deleteHouse = async (e) => {
