@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import {Link, Redirect} from 'react-router-dom'
 import styled from 'styled-components';
-import FamilyCard from './FamilyCard'
+import FamilyCard from './FamilyCard';
 
 const HouseItemHeader = styled.div`
     border: 2px solid black;
@@ -38,38 +38,6 @@ class HouseItem extends Component {
         })
     }
 
-    // componentWillMount() {
-    //     const houseId = this.props.match.params.id;
-    //     this._fetchHouse(houseId);
-    //     this._fetchFamilies(houseId);
-    // }
-
-    // _fetchHouse = async (houseId) => {
-    //     try {
-    //         const res = await axios.get(`/api/houses/${houseId}`)
-    //         await this.setState({
-    //             house: res.data
-    //         })
-    //         return res.data
-    //         console.log(res.data)
-    //     }
-    //     catch(err) {
-    //         console.log(err)
-    //     }
-    // }
-
-    // _fetchFamilies = async (houseId) => {
-    //     try {
-    //         const res = await axios.get(`/api/houses/${houseId}`)
-    //         await this.setState({families: res.data})
-    //         return res.data.families
-    //         console.log(res.data.families)
-    //     }
-    //     catch(err) {
-    //         console.log(err)
-    //     }
-    // }
-
     _deleteHouse = async (e) => {
         e.preventDefault();
         try {
@@ -88,8 +56,15 @@ class HouseItem extends Component {
         const headerStyle = {
             // background: {this.state.house.house_color},
             border: "2px solid black",
-            borderRadius: "10px"
+            borderRadius: "10px",
+            margin: '10px'
         };
+        const imageStyle = {
+            borderRadius: "10px"
+        }
+        const descriptionStyle = {
+            textOverflow: 'ellipsis'
+        }
         return (
             <div>
                 {this.state.redirect 
@@ -104,9 +79,17 @@ class HouseItem extends Component {
                         <h4>"{this.state.house.house_motto}"</h4>
                     </div>
 
+                    <br />
+
                     <div>
-                        <img src={this.state.house.picture_url} />
-                        <p>{this.state.house.description}</p>
+                        <img src={this.state.house.picture_url} style={imageStyle} />
+                    </div>
+
+                    <div>
+                        <p style={descriptionStyle}>{this.state.house.description}</p>
+                    </div>
+
+                    <div>
                         <div><strong>House Director:</strong> {this.state.house.house_director_name}</div>
                         <div><strong>House Mascot:</strong> {this.state.house.house_mascot}</div>
                     </div>

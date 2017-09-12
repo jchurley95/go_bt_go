@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import AllHouses from "./components/AllHouses";
-import HouseItem from "./components/HouseItem"
+import HouseItem from "./components/HouseItem";
+import GlobalNav from "./components/GlobalNav";
+
 import "./App.css";
 
 class App extends Component {
@@ -10,6 +12,7 @@ class App extends Component {
       <div className="App">
         <Router>
           <div>
+            <GlobalNav />
             <Route exact path='/' component={AllHouses} />
             <Route exact path='/houses/:id' component={HouseItem} />
             {/* <Route exact path="/signup" component={SignUp}/>
