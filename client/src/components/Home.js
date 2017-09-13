@@ -17,7 +17,6 @@ class Home extends Component {
     
     render() {
         const HomeStyle = {
-            borderRadius: '25px'
         }
         
         return (

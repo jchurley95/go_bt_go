@@ -7,7 +7,9 @@ const HouseCardStyles = styled.div`
   margin: 20px 0; 
   box-shadow: 0 0 20px 15px black inset;
   border-radius: 25px;
+  background-color: darkgreen;
   h3{
+    text-shadow: 3px 3px black;
     padding: 5px 0;
   }
 `;

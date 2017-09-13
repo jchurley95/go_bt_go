@@ -66,7 +66,6 @@ class AllHouses extends Component {
                         '@media (min-width: 900px)': {
                             width: '80%',
                             height: '600px',
-
                         }
                         }}
                         

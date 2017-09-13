@@ -47,10 +47,12 @@ class AllEvents extends Component {
                     '@media (max-width: 900px)': {
                         width: '80%',
                         height: '300px'
+
                     },
                     '@media (min-width: 900px)': {
                         width: '80%',
                         height: '600px'
+
                     }
                     }}
                 >
