@@ -51,6 +51,7 @@ class AllHouses extends Component {
         return (
             <div>
                 <h1>Houses</h1>
+
                 
                 <HouseListContainer>
                     <ol>

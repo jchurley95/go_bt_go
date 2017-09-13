@@ -2044,7 +2044,7 @@ duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
 
-ease-functions@0.0.1:
+ease-functions@0.0.1, ease-functions@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/ease-functions/-/ease-functions-0.0.1.tgz#87c3c9f69377b1f7be160bc2d22ab58967b74483"
 
