@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import HouseCard from './HouseCard';
 import styled from 'styled-components';
+import Coverflow from 'react-coverflow';
+import {StyleRoot} from 'radium';
 
 const HouseListContainer = styled.div`
 `
@@ -50,20 +52,34 @@ class AllHouses extends Component {
     render() {
         return (
             <div>
-                <h1>Houses</h1>
-
                 
-                <HouseListContainer>
-                    <ol>
-                        {this.state.houses.map((house) => {
-                            
-                            return <HouseCard house={house} key={house.id}/>
+                <h2>House Leaderboard</h2>
+                <StyleRoot>
+                <Coverflow
+                    displayQuantityOfSide={2}
+                    navigation={true}
+                    enableHeading={true}
+                    active={0}
+                    media={{
+                    '@media (max-width: 900px)': {
+                        width: '600px',
+                        height: '300px'
+                    },
+                    '@media (min-width: 900px)': {
+                        width: '960px',
+                        height: '600px'
+                    }
+                    }}
+                >
+
+                    {this.state.houses.map((house) => {
                         
-                        })}
-                    </ol> 
-                </HouseListContainer>
+                        return <HouseCard house={house} key={house.id} data-action="http://andyyou.github.io/react-coverflow/"/>
+                    
+                    })}
+                </Coverflow>
+                </StyleRoot>
 
-                
             </div>
         );
     }

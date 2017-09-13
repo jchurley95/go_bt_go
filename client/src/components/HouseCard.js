@@ -14,7 +14,6 @@ const HouseCardStyles = styled.div`
 const HouseCard = (props) => {
   const house = props.house;
   return (
-    <li>
     <HouseCardStyles>
         
             <Link to={`/houses/${house.id}`}>
@@ -27,7 +26,6 @@ const HouseCard = (props) => {
             </div>
         
     </HouseCardStyles>
-    </li>
   );
 };
 

@@ -3,6 +3,8 @@ import axios from 'axios';
 import {Link, Redirect} from 'react-router-dom'
 import styled from 'styled-components';
 import FamilyCard from './FamilyCard';
+import Coverflow from 'react-coverflow';
+import {StyleRoot} from 'radium';
 
 const HouseItemHeader = styled.div`
     border: 2px solid black;
@@ -113,16 +115,35 @@ class HouseItem extends Component {
                         <div><strong>House Mascot:</strong> {this.state.house.house_mascot}</div>
                     </div>
 
-                    <FamilyListContainer>
-                        <h3>Families:</h3>
-                        <ol>
+                    <br />
+
+                    <StyleRoot>
+                        <Coverflow
+                            displayQuantityOfSide={2}
+                            navigation={true}
+                            enableHeading={true}
+                            active={0}
+                            media={{
+                            '@media (max-width: 900px)': {
+                                width: '600px',
+                                height: '300px'
+                            },
+                            '@media (min-width: 900px)': {
+                                width: '960px',
+                                height: '600px'
+                            }
+                            }}
+                        >
+                        
                         {this.state.families.map((family) => {
                             
                             return <FamilyCard house={this.state.house} family={family} key={family.id}/>
                         
                         })}
-                    </ol> 
-                    </FamilyListContainer>
+
+                    </Coverflow>
+
+                </StyleRoot>
 
                     <hr />
 

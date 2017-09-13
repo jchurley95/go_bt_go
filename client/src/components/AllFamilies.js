@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import FamilyCard from './FamilyCard';
 import styled from 'styled-components';
+import Coverflow from 'react-coverflow';
+import {StyleRoot} from 'radium';
 
 const FamilyListContainer = styled.div`
     display: flex;
