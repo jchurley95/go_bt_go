@@ -46,13 +46,11 @@ class AllEvents extends Component {
                     media={{
                     '@media (max-width: 900px)': {
                         width: '80%',
-                        height: '300px',
-                        boxShadow: '0 0 20px 15px white inset'
+                        height: '300px'
                     },
                     '@media (min-width: 900px)': {
                         width: '80%',
-                        height: '600px',
-                        boxShadow: '0 0 20px 15px white inset'
+                        height: '600px'
                     }
                     }}
                 >

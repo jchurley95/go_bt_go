@@ -61,13 +61,11 @@ class AllHouses extends Component {
                         '@media (max-width: 900px)': {
                             width: '80%',
                             height: '300px',
-                            boxShadow: '0 0 20px 15px white inset'
 
                         },
                         '@media (min-width: 900px)': {
                             width: '80%',
                             height: '600px',
-                            boxShadow: '0 0 20px 15px white inset'
 
                         }
                         }}

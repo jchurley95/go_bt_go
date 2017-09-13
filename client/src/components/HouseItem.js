@@ -121,15 +121,15 @@ class HouseItem extends Component {
                         <Coverflow
                             displayQuantityOfSide={2}
                             navigation={true}
-                            enableHeading={true}
+                            enableHeading={false}
                             active={0}
                             media={{
                             '@media (max-width: 900px)': {
-                                width: '600px',
+                                width: '90%',
                                 height: '300px'
                             },
                             '@media (min-width: 900px)': {
-                                width: '960px',
+                                width: '90%',
                                 height: '600px'
                             }
                             }}
