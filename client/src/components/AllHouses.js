@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import HouseCard from './HouseCard';
+import AllEvents from './AllEvents';
 import styled from 'styled-components';
 
 const HouseListContainer = styled.div`
@@ -61,6 +62,8 @@ class AllHouses extends Component {
                         })}
                     </ol> 
                 </HouseListContainer>
+
+                <AllEvents />
                 
             </div>
         );

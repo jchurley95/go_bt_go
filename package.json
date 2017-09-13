@@ -9,7 +9,8 @@
     "postinstall": "npm run build && npm run deploy && echo 'Client built!'"
   },
   "dependencies": {
-    "@rails/webpacker": "^3.0.1"
+    "@rails/webpacker": "^3.0.1",
+    "moment": "^2.18.1"
   },
   "devDependencies": {
     "webpack-dev-server": "^2.7.1"
