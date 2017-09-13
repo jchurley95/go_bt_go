@@ -4,9 +4,7 @@ import HouseCard from './HouseCard';
 import styled from 'styled-components';
 import Coverflow from 'react-coverflow';
 import {StyleRoot} from 'radium';
-
-const HouseListContainer = styled.div`
-`
+import Radium from 'radium'
 
 class AllHouses extends Component {
     constructor() {
@@ -51,33 +49,37 @@ class AllHouses extends Component {
 
     render() {
         return (
-            <div>
+            <div className="AllHousesContainer">
                 
-                <h2>House Leaderboard</h2>
                 <StyleRoot>
-                <Coverflow
-                    displayQuantityOfSide={2}
-                    navigation={true}
-                    enableHeading={true}
-                    active={0}
-                    media={{
-                    '@media (max-width: 900px)': {
-                        width: '600px',
-                        height: '300px'
-                    },
-                    '@media (min-width: 900px)': {
-                        width: '960px',
-                        height: '600px'
-                    }
-                    }}
-                >
+                    <Coverflow
+                        displayQuantityOfSide={1}
+                        navigation={true}
+                        enableHeading={false}
+                        active={0}
+                        media={{
+                        '@media (max-width: 900px)': {
+                            width: '80%',
+                            height: '300px',
+                            boxShadow: '0 0 20px 15px white inset'
 
-                    {this.state.houses.map((house) => {
+                        },
+                        '@media (min-width: 900px)': {
+                            width: '80%',
+                            height: '600px',
+                            boxShadow: '0 0 20px 15px white inset'
+
+                        }
+                        }}
                         
-                        return <HouseCard house={house} key={house.id} data-action="http://andyyou.github.io/react-coverflow/"/>
-                    
-                    })}
-                </Coverflow>
+                    >
+
+                        {this.state.houses.map((house) => {
+                            
+                            return <HouseCard house={house} key={house.id}/>
+                        
+                        })}
+                    </Coverflow>
                 </StyleRoot>
 
             </div>

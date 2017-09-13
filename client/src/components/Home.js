@@ -16,17 +16,14 @@ class Home extends Component {
 
     
     render() {
+        const HomeStyle = {
+            height: '100%'
+        }
+        
         return (
-            <div>
-                
-                <HomePageStyle>
-                    <div>
-                        <AllHouses />
-                    </div>
-                    <div>
-                        <AllEvents />
-                    </div>
-                </HomePageStyle>
+            <div className="HomeContainer" style={HomeStyle}>
+                <AllHouses />
+                <AllEvents />
             </div>
         );
     }

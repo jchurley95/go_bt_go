@@ -35,30 +35,31 @@ class AllEvents extends Component {
 
     render() {
         return (
-            <div>
+            <div className="AllEventsContainer">
 
-                <h2>Events</h2>
                 <StyleRoot>
                 <Coverflow
-                    displayQuantityOfSide={2}
+                    displayQuantityOfSide={1}
                     navigation={true}
-                    enableHeading={true}
+                    enableHeading={false}
                     active={0}
                     media={{
                     '@media (max-width: 900px)': {
-                        width: '600px',
-                        height: '300px'
+                        width: '80%',
+                        height: '300px',
+                        boxShadow: '0 0 20px 15px white inset'
                     },
                     '@media (min-width: 900px)': {
-                        width: '960px',
-                        height: '600px'
+                        width: '80%',
+                        height: '600px',
+                        boxShadow: '0 0 20px 15px white inset'
                     }
                     }}
                 >
 
                         {this.state.events.map((event) => {
                             
-                            return <EventCard event={event} key={event.id} data-action="http://andyyou.github.io/react-coverflow/"/>
+                            return <EventCard event={event} key={event.id}/>
                         
                         })}
                     </Coverflow>

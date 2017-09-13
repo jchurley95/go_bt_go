@@ -5,7 +5,8 @@ import styled from 'styled-components'
 const HouseCardStyles = styled.div`
   padding: 10px;
   margin: 20px 0; 
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 0 0 20px 15px black inset;
+  border-radius: 25px;
   h3{
     padding: 5px 0;
   }
