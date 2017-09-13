@@ -2044,6 +2044,10 @@ duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
 
+ease-functions@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/ease-functions/-/ease-functions-0.0.1.tgz#87c3c9f69377b1f7be160bc2d22ab58967b74483"
+
 ecc-jsbn@~0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz#0fc73a9ed5f0d53c38193398523ef7e543777505"
@@ -5164,6 +5168,12 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
+
+react-3d-carousel@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/react-3d-carousel/-/react-3d-carousel-0.0.6.tgz#a24db99e5e729d302bf660aa1f9c08bd9e83fe99"
+  dependencies:
+    ease-functions "0.0.1"
 
 react-datepicker@^0.54.0:
   version "0.54.0"
