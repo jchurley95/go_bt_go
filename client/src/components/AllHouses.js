@@ -59,7 +59,7 @@ class AllHouses extends Component {
                         active={0}
                         media={{
                         '@media (max-width: 900px)': {
-                            width: '80%',
+                            width: '100%',
                             height: '300px',
 
                         },
