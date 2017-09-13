@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const HouseCardStyles = styled.div`
-  width: 30%;
   padding: 10px;
   margin: 20px 0; 
   box-shadow: 1px 1px 5px black;

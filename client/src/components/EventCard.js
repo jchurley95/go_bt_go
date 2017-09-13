@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components'
 
 const EventCardStyle = styled.div`
-    width: 30%;
     padding: 10px;
     margin: 20px; 
     box-shadow: 1px 1px 5px black;

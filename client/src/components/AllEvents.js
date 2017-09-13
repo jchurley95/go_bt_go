@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import EventCard from './EventCard';
 import styled from 'styled-components';
+import { CSSTransitionGroup } from 'react-transition-group'
 
 const EventListContainer = styled.div`
 `

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import AllHouses from "./components/AllHouses";
 import HouseItem from "./components/HouseItem";
 import GlobalNav from "./components/GlobalNav";
+import Home from './components/Home';
 
 import "./App.css";
 
@@ -13,7 +14,7 @@ class App extends Component {
         <Router>
           <div>
             <GlobalNav />
-            <Route exact path='/' component={AllHouses} />
+            <Route exact path='/' component={Home} />
             <Route exact path='/houses/:id' component={HouseItem} />
             {/* <Route exact path="/signup" component={SignUp}/>
             <Route exact path="/signin" component={SignIn}/> */}
