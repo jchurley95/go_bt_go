@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import HouseCard from './HouseCard';
 import styled from 'styled-components';
 import Coverflow from 'react-coverflow';
 import {StyleRoot} from 'radium';
