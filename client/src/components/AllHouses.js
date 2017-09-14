@@ -45,7 +45,6 @@ class AllHouses extends Component {
         }
     }
     
-    // " +this.state.currdeg+ "
     render() {
         let carouselStyle = {
             WebkitTransform: "rotateY("+this.state.currdeg+"deg)",
@@ -54,10 +53,6 @@ class AllHouses extends Component {
             transform: "rotateY("+this.state.currdeg+"deg)"
         }
         let rotateDegrees = -45;
-        // loop through houses
-        // const degrees = 0
-        // each house
-            // <div className="item house"+i+"" >{house.name}</div>
         return (
             <div className="AllHousesContainer">
                 <div className="container">
@@ -80,33 +75,6 @@ class AllHouses extends Component {
                 </div>
             <button className="next" onClick={this._rotateLeft}>Next</button>
             <button className="prev" onClick={this._rotateRight}>Prev</button>
-                {/* <StyleRoot>
-                    <Coverflow
-                        displayQuantityOfSide={1}
-                        navigation={true}
-                        enableHeading={false}
-                        active={0}
-                        media={{
-                        '@media (max-width: 900px)': {
-                            width: '100%',
-                            height: '300px',
-
-                        },
-                        '@media (min-width: 900px)': {
-                            width: '80%',
-                            height: '600px',
-                        }
-                        }}
-                        
-                    >
-
-                        {this.state.houses.map((house) => {
-                            
-                            return <HouseCard house={house} key={house.id}/>
-                        
-                        })}
-                    </Coverflow>
-                </StyleRoot> */}
 
             </div>
         );

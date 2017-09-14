@@ -6,7 +6,6 @@ const EventCardStyle = styled.div`
     padding: 10px;
     h2 {
         color: #A38C19;
-        text-shadow: 3px 3px black;
     }
     h3{
         padding: 5px 0;
