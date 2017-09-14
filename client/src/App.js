@@ -6,10 +6,14 @@ import GlobalNav from "./components/GlobalNav";
 import Home from './components/Home';
 import SignUp from './components/SignIn';
 import SignIn from './components/SignUp';
+import { setAxiosDefaults } from './util';
 
 import "./App.css";
 
 class App extends Component {
+  componentWillMount(){
+    setAxiosDefaults();
+  }
   render() {
     return (
       <div className="App">
