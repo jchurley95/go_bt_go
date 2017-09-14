@@ -42,22 +42,22 @@ class SignUp extends Component {
      return <Redirect to="/" />
    }
    return (
-     <div>
-       <form onSubmit={this._signUp}>
-         <div>
+     <div className="sign-up-container">
+       <form onSubmit={this._signUp} className="sign-up-form">
+         <div className="sign-up-email">
            <label htmlFor="email">E-mail: </label>
            <input onChange={this._handleChange} type="text" name="email" value={this.state.email} />
          </div>
-         <div>
+         <div className="sign-up-password">
            <label htmlFor="password">Password: </label>
            <input onChange={this._handleChange} type="text" name="password" value={this.state.password} />
          </div>
-         <div>
+         <div className="sign-up-confirm-password">
            <label htmlFor="password">Confirm Password: </label>
            <input onChange={this._handleChange} type="text" name="password_confirmation" value={this.state.password_confirmation} />
          </div>
          
-         <button>Sign Up</button>
+         <button className="sign-button sign-up-email">Sign Up</button>
          <Link to="/signin">Sign In</Link>
        </form>
      </div>

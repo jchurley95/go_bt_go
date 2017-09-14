@@ -35,17 +35,17 @@ _signIn = async (e) => {
      return <Redirect to="/" />
    }
    return (
-     <div>
-       <form onSubmit={this._signIn}>
-         <div>
+     <div className="sign-in-container">
+       <form onSubmit={this._signIn} className="sign-in-form">
+         <div className="sign-in-email">
            <label htmlFor="email">E-mail: </label>
            <input onChange={this._handleChange} type="text" name="email" value={this.state.email} />
          </div>
-         <div>
+         <div className="sign-in-password">
            <label htmlFor="password">Password: </label>
            <input onChange={this._handleChange} type="text" name="password" value={this.state.password} />
          </div>
-         <button>Sign In</button>
+         <button className="sign-button sign-in-button">Sign In</button>
          <Link to="/signup">Sign Up</Link>
        </form>
      </div>

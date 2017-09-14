@@ -123,5 +123,5 @@ def get_house_data
             #, saint_feast_day: 'December 3' 
         }
     }
-    house_data
+    return house_data
 end
