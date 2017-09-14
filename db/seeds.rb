@@ -51,11 +51,11 @@ student_data.each do |students|
     final_email = email_name + "@gmail.com"
     
 
-      current_student = User.create!({
-        email: final_email,
-        password: "bttitans17",
-        password_confirmation: "bttitans17"
-      })
+    current_student = User.create!({
+      email: final_email,
+      password: "bttitans17",
+      password_confirmation: "bttitans17"
+    })
 
   end
 
