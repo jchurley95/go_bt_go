@@ -59,7 +59,7 @@ class AllEvents extends Component {
 
                         {this.state.events.map((event) => {
                             
-                            return <EventCard event={event} key={event.id}/>
+                            return <EventCard event={event} key={event.index}/>
                         
                         })}
                     </Coverflow>
