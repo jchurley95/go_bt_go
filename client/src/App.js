@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import AllHouses from "./components/AllHouses";
 import HouseItem from "./components/HouseItem";
 import GlobalNav from "./components/GlobalNav";
 import Home from './components/Home';
-import SignUp from './components/SignIn';
-import SignIn from './components/SignUp';
+import SignUp from './components/SignUp';
+import SignIn from './components/SignIn';
 import { setAxiosDefaults } from './util';
 
 import "./App.css";

@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import styled from 'styled-components';
-import Coverflow from 'react-coverflow';
-import {StyleRoot} from 'radium';
-import Radium from 'radium';
 import { Link } from 'react-router-dom';
 
 class AllHouses extends Component {
@@ -47,8 +43,8 @@ class AllHouses extends Component {
     render() {
         let carouselStyle = {
             WebkitTransform: "rotateY("+this.state.currdeg+"deg)",
-            mozTransform: "rotateY("+this.state.currdeg+"deg)",
-            oTransform: "rotateY("+this.state.currdeg+"deg)",
+            MozTransform: "rotateY("+this.state.currdeg+"deg)",
+            OTransform: "rotateY("+this.state.currdeg+"deg)",
             transform: "rotateY("+this.state.currdeg+"deg)"
         }
         let rotateDegrees = -45;

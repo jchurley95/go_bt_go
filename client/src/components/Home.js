@@ -2,14 +2,6 @@ import React, { Component } from 'react';
 import AllHouses from './AllHouses';
 import AllEvents from './AllEvents';
 import styled from 'styled-components';
-import $ from 'jquery'; 
-
-const HomePageStyle = styled.div`
-    // display: flex;
-    // flex-wrapper: wrap;
-    // justify-content: space-around;
-`
-
 
 
 class Home extends Component {
@@ -20,7 +12,7 @@ class Home extends Component {
         }
         
         return (
-            <div className="HomeContainer" style={HomeStyle}>
+            <div className="HomeContainer">
                 <AllHouses />
                 <AllEvents />
             </div>

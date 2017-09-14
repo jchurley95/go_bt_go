@@ -14,7 +14,6 @@ const FamilyCardStyles = styled.div`
 const FamilyCard = (props) => {
 
   const family = props.family;
-  const house = props.house;
 
   return (
     <FamilyCardStyles>

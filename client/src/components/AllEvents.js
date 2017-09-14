@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import EventCard from './EventCard';
-import styled from 'styled-components';
-import Coverflow from 'react-coverflow';
-import {StyleRoot} from 'radium';
-
-const EventListContainer = styled.div`
-`
 
 class AllEvents extends Component {
     constructor() {
@@ -22,7 +16,17 @@ class AllEvents extends Component {
 
     _fetchEvents = async () => {
         try {
-            const res = await axios.get('https://sheetlabs.com/BTHO/bt_point_events');
+            const res = await axios.get('https://sheetlabs.com/BTHO/bt_point_events', {transformRequest: (data, headers) => {
+                console.log(headers)
+                delete headers.expiry;
+                delete headers.uid;
+                delete headers['access-token'];
+                delete headers.client;
+                delete headers['token-type']
+                
+                return data
+                
+            }});
             console.log(res.data);
 
             await this.setState({events: res.data});
@@ -37,35 +41,11 @@ class AllEvents extends Component {
         return (
             <div className="AllEventsContainer">
 
-                {/* <StyleRoot>
-                <Coverflow
-                    displayQuantityOfSide={1}
-                    navigation={true}
-                    enableHeading={false}
-                    active={0}
-                    media={{
-                    '@media (max-width: 900px)': {
-                        width: '100%',
-                        height: '300px'
-
-                    },
-                    '@media (min-width: 900px)': {
-                        width: '80%',
-                        height: '600px'
-
-                    }
-                    }}
-                > */}
-
                         {this.state.events.map((event) => {
                             
                             return <EventCard event={event} key={event.index}/>
                         
                         })}
-                        
-                    {/* </Coverflow>
-                </StyleRoot> */}
-                
                 
             </div>
         );
