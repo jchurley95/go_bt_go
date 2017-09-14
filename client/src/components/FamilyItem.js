@@ -21,6 +21,7 @@ class FamilyItem extends Component {
         this.state = {
             house: {},
             family: {},
+            students: [],
             redirect: false
         }
     }
