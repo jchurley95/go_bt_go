@@ -3,15 +3,7 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const HouseCardStyles = styled.div`
-  padding: 10px;
-  margin: 20px 0; 
-  box-shadow: 0 0 20px 15px black inset;
-  border-radius: 25px;
-  background-color: darkgreen;
-  h3{
-    text-shadow: 3px 3px black;
-    padding: 5px 0;
-  }
+  font-size: 20px;
 `;
 
 const HouseCard = (props) => {
@@ -20,14 +12,9 @@ const HouseCard = (props) => {
     <HouseCardStyles>
         
             <Link to={`/houses/${house.id}`}>
-                <h3>{house.name}</h3>
+                {house.name}
             </Link>
-        
-            <hr />
-            <div>
-                <h3>Points: {house.points}</h3>
-            </div>
-        
+                Points: {house.points}
     </HouseCardStyles>
   );
 };

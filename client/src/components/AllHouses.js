@@ -4,7 +4,8 @@ import HouseCard from './HouseCard';
 import styled from 'styled-components';
 import Coverflow from 'react-coverflow';
 import {StyleRoot} from 'radium';
-import Radium from 'radium'
+import Radium from 'radium';
+import { Link } from 'react-router-dom';
 
 class AllHouses extends Component {
     constructor() {
@@ -46,43 +47,11 @@ class AllHouses extends Component {
     
     // " +this.state.currdeg+ "
     render() {
-        const carouselStyle = {
+        let carouselStyle = {
             WebkitTransform: "rotateY("+this.state.currdeg+"deg)",
             mozTransform: "rotateY("+this.state.currdeg+"deg)",
             oTransform: "rotateY("+this.state.currdeg+"deg)",
             transform: "rotateY("+this.state.currdeg+"deg)"
-        }
-        const aStyle = {
-            transform: "rotateY(0deg) translateZ(300px)",
-            background: "green"
-        }
-        const bStyle = {
-            transform: "rotateY(45deg) translateZ(300px)",
-            background: "green"
-        }
-        const cStyle = {
-            transform: "rotateY(90deg) translateZ(300px)",
-            background: "green"
-        }
-        const dStyle = {
-            transform: "rotateY(135deg) translateZ(300px)",
-            background: "green"
-        }
-        const eStyle = {
-            transform: "rotateY(180deg) translateZ(300px)",
-            background: "green"
-        }
-        const fStyle = {
-            transform: "rotateY(225deg) translateZ(300px)",
-            background: "green"
-        }
-        const gStyle = {
-            transform: "rotateY(270deg) translateZ(300px)",
-            background: "green"
-        }
-        const hStyle = {
-            transform: "rotateY(315deg) translateZ(300px)",
-            background: "green"
         }
         let rotateDegrees = -45;
         // loop through houses
@@ -93,29 +62,24 @@ class AllHouses extends Component {
             <div className="AllHousesContainer">
                 <div className="container">
                     <div className="my-carousel" style={carouselStyle}>
-                        <div className="item a" style={aStyle}>Dante</div>
-                        <div className="item b" style={bStyle}>Aquinas</div>
-                        <div className="item c" style={cStyle}>Goretti</div>
-                        <div className="item d" style={dStyle}>Xavier</div>
-                        <div className="item e" style={eStyle}>Seton</div>
-                        <div className="item f" style={fStyle}>Vianney</div>
-                        <div className="item g" style={gStyle}>LaSalle</div>
-                        <div className="item h" style={hStyle}>Kolbe</div>
 
-                            {/* {this.state.houses.map((house) => {
+                            {this.state.houses.map((house) => {
                                 rotateDegrees = rotateDegrees + 45;
-                                let currentStyle = ("transform: rotateY("+rotateDegrees+"deg) translateZ(300px)")
+                                let currentStyle = {transform: "rotateY("+rotateDegrees+"deg) translateZ(300px)"}
                                 return <div className="item" style={currentStyle}> 
-                                            <HouseCard house={house} key={house.id}/>
+                                            <h2><Link to={`/houses/${house.id}`}>
+                                                {house.name}
+                                            </Link></h2>
+                                            <h4>Points: {house.points}</h4>
                                         </div>
                                 
-                            })} */}
+                            })}
                     </div>
                     
 
                 </div>
-            <button className="next" onClick={this._rotateRight}>Next House</button>
-            <button className="prev" onClick={this._rotateLeft}>Prev House</button>
+            <button className="next" onClick={this._rotateLeft}>Next</button>
+            <button className="prev" onClick={this._rotateRight}>Prev</button>
                 {/* <StyleRoot>
                     <Coverflow
                         displayQuantityOfSide={1}

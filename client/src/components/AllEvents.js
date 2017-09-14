@@ -37,7 +37,7 @@ class AllEvents extends Component {
         return (
             <div className="AllEventsContainer">
 
-                <StyleRoot>
+                {/* <StyleRoot>
                 <Coverflow
                     displayQuantityOfSide={1}
                     navigation={true}
@@ -55,15 +55,16 @@ class AllEvents extends Component {
 
                     }
                     }}
-                >
+                > */}
 
                         {this.state.events.map((event) => {
                             
                             return <EventCard event={event} key={event.index}/>
                         
                         })}
-                    </Coverflow>
-                </StyleRoot>
+                        
+                    {/* </Coverflow>
+                </StyleRoot> */}
                 
                 
             </div>

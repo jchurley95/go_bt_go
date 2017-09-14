@@ -4,9 +4,6 @@ import moment from 'moment';
 
 const EventCardStyle = styled.div`
     padding: 10px;
-    box-shadow: 0 0 20px 15px black inset;
-    border-radius: 25px;
-    background-color: darkgreen;
     h2 {
         color: #A38C19;
         text-shadow: 3px 3px black;
