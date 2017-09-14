@@ -4,6 +4,8 @@ import AllHouses from "./components/AllHouses";
 import HouseItem from "./components/HouseItem";
 import GlobalNav from "./components/GlobalNav";
 import Home from './components/Home';
+import SignUp from './components/SignIn';
+import SignIn from './components/SignUp';
 
 import "./App.css";
 
@@ -16,8 +18,8 @@ class App extends Component {
             <GlobalNav />
             <Route exact path='/' component={Home} />
             <Route exact path='/houses/:id' component={HouseItem} />
-            {/* <Route exact path="/signup" component={SignUp}/>
-            <Route exact path="/signin" component={SignIn}/> */}
+            <Route exact path="/signup" component={SignUp}/>
+            <Route exact path="/signin" component={SignIn}/>
             {/* <Route path="/House/new" component={NewHouse}/> */}
             {/* <Route exact path="/user/:id" component={UserProfile}/> */}
           </div>
