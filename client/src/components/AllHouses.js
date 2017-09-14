@@ -104,7 +104,8 @@ class AllHouses extends Component {
 
                             {/* {this.state.houses.map((house) => {
                                 rotateDegrees = rotateDegrees + 45;
-                                return <div className="item" style={"rotateY("+rotateDegrees+") translateZ(300px)"}> 
+                                let currentStyle = ("transform: rotateY("+rotateDegrees+"deg) translateZ(300px)")
+                                return <div className="item" style={currentStyle}> 
                                             <HouseCard house={house} key={house.id}/>
                                         </div>
                                 
