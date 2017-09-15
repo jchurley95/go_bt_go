@@ -11,7 +11,9 @@ family_data = get_family_data
 house_data = get_house_data
 
 family_data.each do |house_name, families|
+
   info = house_data[house_name]
+
   current_house = House.create!({
     name: info[:name],
     description: info[:description],
@@ -28,36 +30,47 @@ family_data.each do |house_name, families|
     house_director_name: info[:house_director_name]
   })
 
-  families.each do |family|
-    current_family = Family.create!({
-      family_mentor: family[:family_mentor],
-      points: family[:points],
-      house: current_house
-    })
+    families.each do |family, students|
+
+      current_family = Family.create!({
+        family_mentor: family[:family_mentor],
+        points: family[:points],
+        house: current_house
+      })
+
+      student_data.each do |family_mentor, students|
+
+        students.each do |student|
+          if student[:family_mentor] == current_family.family_mentor
+
+            student_name = student[:student_name]
+            name_split = student_name.split(" ")
+            noComma = name_split.first.delete(",")
+            split_last = name_split.last.split("")
+            split_second = name_split.second.split("")
+            first_initial = split_last.first
+            second_initial = split_second.first
+            random_number = rand(5)
+            second_random_number = rand(5)
+            # third_random_number = rand(5)
+            email_name = (first_initial + second_initial + noComma + random_number.to_s + second_random_number.to_s)
+            final_email = (email_name + "@gmail.com")
+        
+            current_student = User.create!({
+              email: final_email,
+              password: "bttitans17",
+              password_confirmation: "bttitans17",
+              family: current_family
+            })
+          end
+        end
+
+    end
 
   end
+
 end
 
-student_data.each do |students|
   
-  students.each do |student|
-
-    student_name = student[:student_name]
-    name_split = student_name.split(" ")
-    noComma = name_split.first.delete(",")
-    split_last = name_split.last.split("")
-    first_initial = split_last.first
-    email_name = (first_initial + noComma)
-    final_email = email_name + "@gmail.com"
-    
-
-    current_student = User.create!({
-      email: final_email,
-      password: "bttitans17",
-      password_confirmation: "bttitans17"
-    })
-
-  end
-
-end
-
+  
+  

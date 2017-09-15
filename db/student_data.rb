@@ -1,5 +1,6 @@
 def get_student_data
     student_data = {
+
         "Birth, Anne" =>
             [
                 {
@@ -53,42 +54,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Gaupp, Joseph Daigle",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Birth, Anne",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Hynekamp, Erin Mary Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Birth, Anne",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Renard, Christopher Yann George",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Birth, Anne",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Sheley, Sarah Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Birth, Anne",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Taylor, Meghan Shea",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Birth, Anne",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Walsh, Michael Daniel",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Birth, Anne",
                     "house_name": "LaSalle",
                     "points": 0
@@ -185,6 +186,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Chambers, Monica" =>
             [
                 {
@@ -231,49 +233,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Berry, DeAnna Rae",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Chambers, Monica",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Collins, Clayton Lloyd",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Chambers, Monica",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Florio, Dominic Albert",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Chambers, Monica",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Guinther, Grant William",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Chambers, Monica",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Ianzito, Elena Isolina",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Chambers, Monica",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Lyons, Casey",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Chambers, Monica",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Rudolph, Ella Grace",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Chambers, Monica",
                     "house_name": "Vianney",
                     "points": 0
@@ -370,6 +372,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Cheatwood, Andi" =>
             [
                 {
@@ -416,42 +419,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Attaway, Ryan Wesley",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Cheatwood, Andi",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Montes, Sarah Gabrielle Kristie",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Cheatwood, Andi",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Nohl, Jacqueline Leigh",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Cheatwood, Andi",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Philips, Cole David",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Cheatwood, Andi",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Reinhardt, Christian Trumm",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Cheatwood, Andi",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Vliek, Makenzie Star",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Cheatwood, Andi",
                     "house_name": "Xavier",
                     "points": 0
@@ -594,49 +597,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Baker, Bridget A.",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Clark, Moira",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Briselden, Jordan Lee",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Clark, Moira",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Crisanti, James Andrew",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Clark, Moira",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Holzgrefe, Frederick John",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Clark, Moira",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Marcoccio, Dominick James",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Clark, Moira",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Olmsted, Graham Benjamin",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Clark, Moira",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Potter, Chloe Cameron",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Clark, Moira",
                     "house_name": "Goretti",
                     "points": 0
@@ -733,6 +736,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Craddock, Su" =>
             [
                 {
@@ -779,49 +783,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Capuano, Lyna Rose",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Craddock, Su",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Hershberger, Jacob Patrick",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Craddock, Su",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Lewis, Elizabeth Jacqueline",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Craddock, Su",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "O'Neill, Madeline Erin",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Craddock, Su",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Schmitt, Ethan Michael",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Craddock, Su",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Weaver, Myles George",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Craddock, Su",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Wrobel, Gretchen Margaret",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Craddock, Su",
                     "house_name": "LaSalle",
                     "points": 0
@@ -904,6 +908,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "DeMarco, Jennifer" => 
             [
                 {
@@ -943,49 +948,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Camerieri, Catherine Diamante",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DeMarco, Jennifer",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Clemente, Ashley Michele",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DeMarco, Jennifer",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Gulick, Brian William",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DeMarco, Jennifer",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Moss, David Wyatt",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DeMarco, Jennifer",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Scott, Kelly Colleen",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DeMarco, Jennifer",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Simonsen, Grace Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DeMarco, Jennifer",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Werkheiser, Aaron",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DeMarco, Jennifer",
                     "house_name": "Kolbe",
                     "points": 0
@@ -1074,7 +1079,8 @@ def get_student_data
                     "house_name": "Kolbe",
                     "points": 0
                 }
-            ]
+            ],
+
         "DePietro, Leslie" => 
             [
                 {
@@ -1121,49 +1127,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Blume, Morgan Grace",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DePietro, Leslie",
                     "house_name": "Aquinas",
                     "points": 0
                 },
                 {
                     "student_name": "Dewalt, Jamie Leigh",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DePietro, Leslie",
                     "house_name": "Aquinas",
                     "points": 0
                 },
                 {
                     "student_name": "Fisher, John Michael",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DePietro, Leslie",
                     "house_name": "Aquinas",
                     "points": 0
                 },
                 {
                     "student_name": "Mains, Grace Alexis",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DePietro, Leslie",
                     "house_name": "Aquinas",
                     "points": 0
                 },
                 {
                     "student_name": "Sheehan, Matthew Russell",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DePietro, Leslie",
                     "house_name": "Aquinas",
                     "points": 0
                 },
                 {
                     "student_name": "Smith, Patrick Regan",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DePietro, Leslie",
                     "house_name": "Aquinas",
                     "points": 0
                 },
                 {
                     "student_name": "Watson, Lauren Willow",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "DePietro, Leslie",
                     "house_name": "Aquinas",
                     "points": 0
@@ -1246,6 +1252,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Eramian, Nancy" => 
             [
                 {
@@ -1292,49 +1299,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Colleran, Anne Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Eramian, Nancy",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Deitrick, Mariah Siobhan",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Eramian, Nancy",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Melton, Owen Nathan",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Eramian, Nancy",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Riordan, Michael Patrick",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Eramian, Nancy",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Scaff, Daniella Rose",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Eramian, Nancy",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Tarantino, Nicholas Cesar",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Eramian, Nancy",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Valenty, Kaitlyn Anne",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Eramian, Nancy",
                     "house_name": "Dante",
                     "points": 0
@@ -1424,6 +1431,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Fujihira, Maureen" =>
             [
                 {
@@ -1470,42 +1478,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Cameron, Dillen Leigh",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Fujihira, Maureen",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Elliott, Luke Robert",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Fujihira, Maureen",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Johnson, Braden Anthony",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Fujihira, Maureen",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Pereboom, Nicholas Eric",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Fujihira, Maureen",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Piper, Emily Catherine",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Fujihira, Maureen",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Robertson, Kathryn Grace",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Fujihira, Maureen",
                     "house_name": "Seton",
                     "points": 0
@@ -1601,7 +1609,8 @@ def get_student_data
                     "house_name": "Seton",
                     "points": 0
                 }
-            ]
+            ],
+
         "Gerard, Geoff" =>
             [
                 {
@@ -1641,35 +1650,35 @@ def get_student_data
                 },
                 {
                     "student_name": "Gasper, Adam Mark",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Gerard, Geoff",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Ianzito, Kika Aurelia",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Gerard, Geoff",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Lange, John Walsh",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Gerard, Geoff",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Michallet, Angel Vrienne",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Gerard, Geoff",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Schweizer, Trent William",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Gerard, Geoff",
                     "house_name": "Vianney",
                     "points": 0
@@ -1773,6 +1782,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Gucer, Jodi" =>
             [
                 {
@@ -1826,49 +1836,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Aaron, Samantha Katherine",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Gucer, Jodi",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Fadem, Camryn Lee",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Gucer, Jodi",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Fuller, Joshua William",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Gucer, Jodi",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Keel, Davis Younger",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Gucer, Jodi",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Makuck, Angela Frances Marie",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Gucer, Jodi",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Perry, Justin Anthony",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Gucer, Jodi",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Zacharias, Emily Anne",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Gucer, Jodi",
                     "house_name": "Kolbe",
                     "points": 0
@@ -1951,6 +1961,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Henry, Michael" =>
             [
                 {
@@ -1997,42 +2008,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Brothers, Emma Claire",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Henry, Michael",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Chiodo, Gabrielle Leslie",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Henry, Michael",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Furnish, Thaddeus Gordon",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Henry, Michael",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Ganem, Jack Thomas",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Henry, Michael",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Long, Steven Craig",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Henry, Michael",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Teran, Katherine Anna",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Henry, Michael",
                     "house_name": "Xavier",
                     "points": 0
@@ -2136,6 +2147,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Hollers, Brent" =>
             [
                 {
@@ -2182,49 +2194,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Brysacz, Brianna M.",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hollers, Brent",
                     "house_name": "Aquinas",
                     "points": 0
                 },
                 {
                     "student_name": "Carlson, Simon Brian",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hollers, Brent",
                     "house_name": "Aquinas",
                     "points": 0
                 },
                 {
                     "student_name": "Flanagan, Mathias Dowling",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hollers, Brent",
                     "house_name": "Aquinas",
                     "points": 0
                 },
                 {
                     "student_name": "Mistretta, Grace Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hollers, Brent",
                     "house_name": "Aquinas",
                     "points": 0
                 },
                 {
                     "student_name": "Schendl, Thomas Donald",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hollers, Brent",
                     "house_name": "Aquinas",
                     "points": 0
                 },
                 {
                     "student_name": "Schlaupitz, Myah Nicole",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hollers, Brent",
                     "house_name": "Aquinas",
                     "points": 0
                 },
                 {
                     "student_name": "Smith, Brogan Vassil",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hollers, Brent",
                     "house_name": "Aquinas",
                     "points": 0
@@ -2314,6 +2326,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Howell, Ken" =>
             [
                 {
@@ -2353,42 +2366,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Cole, Ann Amelia",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Howell, Ken",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Dowdy, Carsten Payne",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Howell, Ken",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "O'Donnell, Ryan Kerry",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Howell, Ken",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Rawson, Harry Hoover",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Howell, Ken",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Riordan, John Allen",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Howell, Ken",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Tanner, Cayce Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Howell, Ken",
                     "house_name": "Seton",
                     "points": 0
@@ -2492,6 +2505,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Hughes, Olivia" =>
             [
                 {
@@ -2545,42 +2559,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Ashton, James Scott",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hughes, Olivia",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Hernandez, Ernesto Enrique",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hughes, Olivia",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Karavite, Christian Michael",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hughes, Olivia",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "McArdle, Christina Caroline",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hughes, Olivia",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "McSherry, Aiden Joseph",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hughes, Olivia",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Wellington, Hope Frances",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hughes, Olivia",
                     "house_name": "Xavier",
                     "points": 0
@@ -2670,6 +2684,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Hughes, Patrick" =>
             [
                 {
@@ -2716,42 +2731,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Findlay, Grace Katherine",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hughes, Patrick",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Mutsch, William Evan",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hughes, Patrick",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Nee, Hannah Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hughes, Patrick",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Orr, Avery Leigh",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hughes, Patrick",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Palmich, Joseph Trent",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hughes, Patrick",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "White, Patrick Joseph",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Hughes, Patrick",
                     "house_name": "Kolbe",
                     "points": 0
@@ -2848,6 +2863,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Jean-Baptiste, Gilbert" =>
             [
                 {
@@ -2894,49 +2910,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Coopman, Maxwell Robert",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jean-Baptiste, Gilbert",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Dukat, John William",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jean-Baptiste, Gilbert",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Lancaster, Joshua David",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jean-Baptiste, Gilbert",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Mulligan, Meghan E.",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jean-Baptiste, Gilbert",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Ragan, Sophia Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jean-Baptiste, Gilbert",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Saxon, Rachel Grace",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jean-Baptiste, Gilbert",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Scruton, Ryan Arthur",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jean-Baptiste, Gilbert",
                     "house_name": "LaSalle",
                     "points": 0
@@ -3012,6 +3028,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Jimenez, Holly" =>
             [
                 {
@@ -3058,42 +3075,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Kler, Matthew Douglas",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jimenez, Holly",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Mays, Lily Theresa",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jimenez, Holly",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Mixon, Clay Stephen",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jimenez, Holly",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Navarro, Davis Michael",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jimenez, Holly",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Powell, Catherine Grace",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jimenez, Holly",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Zagranski, Zoie",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Jimenez, Holly",
                     "house_name": "LaSalle",
                     "points": 0
@@ -3183,6 +3200,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Johnson, Chad" =>
             [
                 {
@@ -3229,42 +3247,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Connolly, Rory Francis",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Chad",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Jurgens, William Lassiter",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Chad",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Polakowski, Andrew Marshall",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Chad",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Siegner, Alivia Johnna",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Chad",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Smith, Charlotte Victoria",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Chad",
                     "house_name": "Kolbe",
                     "points": 0
                 },
                 {
                     "student_name": "Sonderman, Sydney Rae",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Chad",
                     "house_name": "Kolbe",
                     "points": 0
@@ -3354,6 +3372,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Johnson, Greg" => 
             [
                 {
@@ -3400,49 +3419,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Ahr, Kara Felice",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Greg",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Koelsch, Samuel Joseph",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Greg",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Niven, Alexander Liam",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Greg",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Solomon, Marcus",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Greg",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Tavares, Paloma",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Greg",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Woods, Kathryn Helen",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Greg",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Wright, Michael Ignatius",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Johnson, Greg",
                     "house_name": "Xavier",
                     "points": 0
@@ -3532,6 +3551,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Lash, John" => 
             [
                 {
@@ -3578,49 +3598,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Cantu, Cole Anthony",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Lash, John",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Fason, Margaret Emily",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Lash, John",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Grillo, Noah Glenn",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Lash, John",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Hubbard, Jake Thomas",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Lash, John",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Johnson, Catherine Ann",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Lash, John",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Shalhoub, Julia Danielle",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Lash, John",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Turnbull, Emilie Peyton",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Lash, John",
                     "house_name": "Dante",
                     "points": 0
@@ -3703,6 +3723,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Marston, Jonathan" => 
             [
                 {
@@ -3756,42 +3777,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Bryant, James Monroe",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Marston, Jonathan",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Chauvin, Emily Kayla",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Marston, Jonathan",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Conner, Caroline Paige",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Marston, Jonathan",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Gilder, John Grayson",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Marston, Jonathan",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Hernandez, Reagan Nicole",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Marston, Jonathan",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Miller, Madeline Peyton",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Marston, Jonathan",
                     "house_name": "Dante",
                     "points": 0
@@ -3881,6 +3902,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "McCarthy, Patti" => 
             [
                 {
@@ -3934,42 +3956,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Daniel, Faith Chappell",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "McCarthy, Patti",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Franke, Matthew Stephen",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "McCarthy, Patti",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Hibbison, Rachel Marie",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "McCarthy, Patti",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Luckett, Mark Richard",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "McCarthy, Patti",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Oreszko, Samuel Grant",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "McCarthy, Patti",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Voulopos, Sophia Catherine",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "McCarthy, Patti",
                     "house_name": "Goretti",
                     "points": 0
@@ -4066,6 +4088,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Michael, Jennifer" => 
             [
                 {
@@ -4112,49 +4135,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Cellilli, Justin Brian",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Michael, Jennifer",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Cooper, William Connor",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Michael, Jennifer",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Leos, Asuncion",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Michael, Jennifer",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Nelson, McKenna Kathleen",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Michael, Jennifer",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Shappard, Emma Catherine",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Michael, Jennifer",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Shultz, Elizabeth Hunter",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Michael, Jennifer",
                     "house_name": "Xavier",
                     "points": 0
                 },
                 {
                     "student_name": "Zaccagnino, Dario",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Michael, Jennifer",
                     "house_name": "Xavier",
                     "points": 0
@@ -4244,6 +4267,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Miller, Marci" => 
             [
                 {
@@ -4290,42 +4314,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Anderson, Nicholas Jeffrey",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Miller, Marci",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Brown, Delaney Paige",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Miller, Marci",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Durthaler, Kayla Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Miller, Marci",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Mandell, Ruth Marie",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Miller, Marci",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "McGlynn, Maura Rose Therese",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Miller, Marci",
                     "house_name": "Dante",
                     "points": 0
                 },
                 {
                     "student_name": "Tierney, Adam Thomas",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Miller, Marci",
                     "house_name": "Dante",
                     "points": 0
@@ -4415,6 +4439,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Muller, Amy" => 
             [
                 {
@@ -4461,49 +4486,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Barre, Benjamin Anthony",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Muller, Amy",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "DeLoach, MaKenzie Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Muller, Amy",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Liedberg, Alexander Christian",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Muller, Amy",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Miller, Maggie Grace",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Muller, Amy",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Millsaps, Andrew Thomas",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Muller, Amy",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Nolan, Grace Ann",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Muller, Amy",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Patsy, Kate Madison",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Muller, Amy",
                     "house_name": "Vianney",
                     "points": 0
@@ -4593,6 +4618,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Necolettos, Vanessa" => 
             [
                 {
@@ -4639,42 +4665,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Allen, Grace Katherine",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Necolettos, Vanessa",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Bagwell, Owen Michael",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Necolettos, Vanessa",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Marchant, Caitlin Emily",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Necolettos, Vanessa",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Mullings, Kylie Ann",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Necolettos, Vanessa",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Scaglione, Charles Herbert",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Necolettos, Vanessa",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Smith, Daniel Vincent",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Necolettos, Vanessa",
                     "house_name": "Seton",
                     "points": 0
@@ -4771,6 +4797,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "O'Donnell, Jan" => 
             [
                 {
@@ -4817,49 +4844,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Barnes, Robert Richard",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Donnell, Jan",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Cowan, Kathryn Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Donnell, Jan",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Daniels, Kevin Christopher",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Donnell, Jan",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Mirando, Madeleine Grace",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Donnell, Jan",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Sauls, Mary Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Donnell, Jan",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Todd, Claire Alice",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Donnell, Jan",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Williams, Jack Richard",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Donnell, Jan",
                     "house_name": "Vianney",
                     "points": 0
@@ -4949,6 +4976,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "O'Sullivan, Ryan" => 
             [
                 {
@@ -4995,42 +5023,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Coopman, Cole Clifford",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Sullivan, Ryan",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Felice, Katherine Mary",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Sullivan, Ryan",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Filipowicz, Jackson Robert",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Sullivan, Ryan",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Franke, Elena Susanne",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Sullivan, Ryan",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Haley, Nicholas Joseph",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Sullivan, Ryan",
                     "house_name": "LaSalle",
                     "points": 0
                 },
                 {
                     "student_name": "Kaluba, Holly Ann",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "O'Sullivan, Ryan",
                     "house_name": "LaSalle",
                     "points": 0
@@ -5120,6 +5148,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Parker, Robert" => 
             [
                 {
@@ -5166,49 +5195,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Baker, Brent Hugh",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Parker, Robert",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "O'Donovan, Anna Grace",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Parker, Robert",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Rozmajzl, Alexandra Grace",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Parker, Robert",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Sousa, Nicholas Tyler",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Parker, Robert",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Taylor, Lily Grace",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Parker, Robert",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Wallace, Davis Matthew",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Parker, Robert",
                     "house_name": "Goretti",
                     "points": 0
                 },
                 {
                     "student_name": "Weidner, Tessa Nicole",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Parker, Robert",
                     "house_name": "Goretti",
                     "points": 0
@@ -5298,6 +5327,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Pham, Michael" => 
             [
                 {
@@ -5344,49 +5374,49 @@ def get_student_data
                 },
                 {
                     "student_name": "Ballow, Jackson Douglas",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Pham, Michael",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Bartholomew, Jordyn Taylor",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Pham, Michael",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Crispo, Austin Kelly",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Pham, Michael",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Parodi, Alyssa Marie",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Pham, Michael",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Setchell, Meagan Rae",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Pham, Michael",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Thompson, Matthew Clark",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Pham, Michael",
                     "house_name": "Seton",
                     "points": 0
                 },
                 {
                     "student_name": "Viviano, Alessandra Hope",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Pham, Michael",
                     "house_name": "Seton",
                     "points": 0
@@ -5483,6 +5513,7 @@ def get_student_data
                     "points": 0
                 }
             ],
+
         "Piper, Danny" => 
             [
                 {
@@ -5529,42 +5560,42 @@ def get_student_data
                 },
                 {
                     "student_name": "Burns, Austin Wesley",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Piper, Danny",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Calero, Elizabeth",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Piper, Danny",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Liedberg, Tatiana Lyn",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Piper, Danny",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Ocasio, Elena I.",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Piper, Danny",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Ramirez, Juliana Maria",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Piper, Danny",
                     "house_name": "Vianney",
                     "points": 0
                 },
                 {
                     "student_name": "Reese, Quinton Alexander",
-                    "grade_number": 0
+                    "grade_number": 10,
                     "family_mentor": "Piper, Danny",
                     "house_name": "Vianney",
                     "points": 0
@@ -5661,6 +5692,7 @@ def get_student_data
                     "points": "0"
                 }
             ],
+
         "Price, Charles" => 
             [
                 {
@@ -5832,6 +5864,7 @@ def get_student_data
                     "points": "0"
                 }
             ],
+
         "Quattlebaum, Rosemary" => 
             [
                 {
@@ -6010,6 +6043,7 @@ def get_student_data
                     "points": "0"
                 }
             ],
+
         "Rountree, Tim" => 
             [
                 {
@@ -6195,6 +6229,7 @@ def get_student_data
                     "points": "0"
                 }
             ],
+
         "Shaughnessy, Elizabeth" => 
             [
                 {
@@ -6373,6 +6408,7 @@ def get_student_data
                     "points": "0"
                 }
             ],
+
         "Tieles, Evan" => 
             [
                 {
@@ -6551,6 +6587,7 @@ def get_student_data
                     "points": "0"
                 }
             ],
+
         "Turner, Ricky" => 
             [
                 {
@@ -6729,6 +6766,7 @@ def get_student_data
                     "points": "0"
                 }
             ],
+
         "Voss-Free, Robin" => 
             [
                 {
@@ -6907,6 +6945,7 @@ def get_student_data
                     "points": "0"
                 }
             ],
+
         "Wagner, Jamie" => 
         [
             {
