@@ -12,16 +12,16 @@ const FamilyCardStyles = styled.div`
 `;
 
 const FamilyCard = (props) => {
-
+  const house = props.house;
   const family = props.family;
 
   return (
     <FamilyCardStyles>
         
-            {/* <Link to={`/houses/${house.id}/families/${family.id}`}>
+            <Link to={`/houses/${house.id}/families/${family.id}`}>
                 <h3>{family.family_mentor}</h3>
-            </Link> */}
-            <button><h3>{family.family_mentor}</h3></button>
+            </Link>
+            {/* <button><h3>{family.family_mentor}</h3></button> */}
             <hr />
             <div>
                 <h3>Points: {family.points}</h3>

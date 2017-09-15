@@ -10,6 +10,7 @@ class Api::HousesController < ApplicationController
         render json: {
             house: @house,
             families: @families
+
         }
     end
 

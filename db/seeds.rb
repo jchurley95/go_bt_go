@@ -10,10 +10,11 @@ student_data = get_student_data
 family_data = get_family_data
 house_data = get_house_data
 
-mom = User.create!({
+madre = User.create!({
   email: "khurley@btcatholic.org",
   password: "igotthepower",
-  password_confirmation: "igotthepower"
+  password_confirmation: "igotthepower",
+  type_of_user: "madre"
 })
 
 family_data.each do |house_name, families|
@@ -63,9 +64,12 @@ family_data.each do |house_name, families|
             final_email = (email_name + "@gmail.com")
         
             current_student = User.create!({
+              name: student[:student_name],
+              points: 0,
               email: final_email,
               password: "bttitans17",
               password_confirmation: "bttitans17",
+              type_of_user: "student"
               family: current_family
             })
           end

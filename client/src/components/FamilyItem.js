@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import {Link, Redirect} from 'react-router-dom'
 import styled from 'styled-components';
-// import FamilyCard from './FamilyCard'
+import StudentCard from './StudentCard'
 
 const FamilyItemHeader = styled.div`
     border: 2px solid black;
@@ -19,23 +19,25 @@ class FamilyItem extends Component {
     constructor() {
         super();
         this.state = {
-            house: {},
             family: {},
-            students: [],
+            users: [],
             redirect: false
         }
     }
 
     componentWillMount(){
-        this._fetchHouseAndFamily();
+        this._fetchHouseAndFamilyandUsers();
     }
 
-    _fetchHouseAndFamily = async () => {
+    _fetchHouseAndFamilyandUsers = async () => {
+        const houseId = this.props.match.params.house_id;
         const id = this.props.match.params.id;
-        const res = await axios.get(`/api/houses/${id}`)
+        console.log("house id is: " + houseId)
+        console.log("family id is: " + id)
+        const res = await axios.get(`/api/houses/${houseId}/families/${id}`)
         this.setState({
-            house: res.data.house,
-            family: res.data.family
+            family: res.data.family,
+            users: res.data.users
         })
     }
 
@@ -100,36 +102,16 @@ class FamilyItem extends Component {
                 <div>
 
                     <div style={headerStyle}>
-                        <h1>{this.state.house.name}</h1>
-                        <h4>"{this.state.house.house_motto_latin}"</h4>
-                        <h4>"{this.state.house.house_motto}"</h4>
+                        <h1>{this.state.family.family_mentor}</h1>
                     </div>
 
-                    <div>
-                        <img src={this.state.house.picture_url} />
-                        <p>{this.state.house.description}</p>
-                        <div><strong>House Director:</strong> {this.state.house.house_director_name}</div>
-                        <div><strong>House Mascot:</strong> {this.state.house.house_mascot}</div>
-                    </div>
-
-                    {/* <FamilyListContainer>
-                        <h3>Families:</h3>
-                        <ol>
-                        {this.state.families.map((family) => {
+                    {this.state.users.map((user) => {
                             
-                            return <FamilyCard house={this.state.house} family={family} key={family.id}/>
+                        return <StudentCard family={this.state.family} user={user} key={user.id}/>
                         
-                        })}
-                    </ol> 
-                    </FamilyListContainer> */}
+                    })}
 
-                    <hr />
-
-                    <div>
-                        <Link to={`/houses/${this.props.match.params.id}/edit`}><button>Edit House</button></Link>
-                        <br/>
-                        <button onClick={this._deleteHouse}>Delete This House</button>
-                    </div>
+                    
                 </div>
                 }
             </div>
