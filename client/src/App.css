@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   height: 100%;
+  font-family: 'Fauna One', serif;
 }
 .App a {
   color: white;
@@ -12,6 +13,14 @@ body {
 }
 .AllEventsContainer {
   margin-top: 100px;
+}
+
+h1, h2 {
+  font-family: 'Bungee Shade', cursive;
+}
+
+h3 {
+  font-family: 'Fauna One', serif;
 }
 
 /* sign up/in styling*/ 
@@ -91,3 +100,9 @@ body {
 .next { right: 5em; }
 .prev { left: 5em; }
 /* END carousel styling*/
+
+.HouseHeader {
+  background-image: url('./images/Gold.png');
+  background-position: center;
+  padding: 10px;
+}

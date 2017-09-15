@@ -57,9 +57,9 @@ class AllHouses extends Component {
                                 rotateDegrees = rotateDegrees + 45;
                                 let currentStyle = {transform: "rotateY("+rotateDegrees+"deg) translateZ(300px)"}
                                 return <div className="item" style={currentStyle}> 
-                                            <h2><Link to={`/houses/${house.id}`}>
+                                            <h3><Link to={`/houses/${house.id}`}>
                                                 {house.name}
-                                            </Link></h2>
+                                            </Link></h3>
                                             <h4>Points: {house.points}</h4>
                                         </div>
                                 

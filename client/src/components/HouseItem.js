@@ -7,8 +7,9 @@ import Coverflow from 'react-coverflow';
 import {StyleRoot} from 'radium';
 
 const HouseItemHeader = styled.div`
-    border: 2px solid black;
-    border-radius: 10px;
+h3 {
+    color: green;
+}
 `
 
 const FamilyListContainer = styled.div`
@@ -74,10 +75,11 @@ class HouseItem extends Component {
     
 
     render() {
+        const hstyle = {
+            color: 'white',
+            fontFamily: 'Fauna One, serif'
+        }
         const headerStyle = {
-            // background: {this.state.house.house_color},
-            border: "2px solid black",
-            borderRadius: "10px",
             margin: '10px'
         };
         const imageStyle = {
@@ -94,8 +96,8 @@ class HouseItem extends Component {
                 :
                 <div>
 
-                    <div style={headerStyle}>
-                        <h1>{this.state.house.name}</h1>
+                    <div className="HouseHeader" style={headerStyle}>
+                        <h1 style={hstyle}>{this.state.house.name}</h1>
                         <h4>"{this.state.house.house_motto_latin}"</h4>
                         <h4>"{this.state.house.house_motto}"</h4>
                     </div>

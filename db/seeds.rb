@@ -10,6 +10,12 @@ student_data = get_student_data
 family_data = get_family_data
 house_data = get_house_data
 
+mom = User.create!({
+  email: "khurley@btcatholic.org",
+  password: "igotthepower",
+  password_confirmation: "igotthepower"
+})
+
 family_data.each do |house_name, families|
 
   info = house_data[house_name]
