@@ -13,6 +13,8 @@ body {
 }
 .AllEventsContainer {
   margin-top: 100px;
+  height: 450px;
+  overflow-y: scroll;
 }
 
 h1, h2 {
