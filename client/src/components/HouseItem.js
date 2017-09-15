@@ -59,6 +59,9 @@ class HouseItem extends Component {
         }
     }
 
+    _sumHousePoints = () => {
+        
+    }
 
     _deleteHouse = async (e) => {
         e.preventDefault();

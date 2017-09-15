@@ -40,51 +40,6 @@ class FamilyItem extends Component {
             users: res.data.users
         })
     }
-
-    // componentWillMount() {
-    //     const houseId = this.props.match.params.id;
-    //     this._fetchHouse(houseId);
-    //     this._fetchFamilies(houseId);
-    // }
-
-    // _fetchHouse = async (houseId) => {
-    //     try {
-    //         const res = await axios.get(`/api/houses/${houseId}`)
-    //         await this.setState({
-    //             house: res.data
-    //         })
-    //         return res.data
-    //         console.log(res.data)
-    //     }
-    //     catch(err) {
-    //         console.log(err)
-    //     }
-    // }
-
-    // _fetchFamilies = async (houseId) => {
-    //     try {
-    //         const res = await axios.get(`/api/houses/${houseId}`)
-    //         await this.setState({families: res.data})
-    //         return res.data.families
-    //         console.log(res.data.families)
-    //     }
-    //     catch(err) {
-    //         console.log(err)
-    //     }
-    // }
-
-    // _deleteFamily = async (e) => {
-    //     e.preventDefault();
-    //     try {
-    //         const res = await axios.delete(`/api/houses/${this.props.match.params.id}`)
-    //         this.setState({redirect: true})
-    //         return res.data
-            
-
-    //     } catch(err) {
-    //         console.log(err)
-    //     }
-    // }
     
 
     render() {

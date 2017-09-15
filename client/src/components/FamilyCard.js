@@ -6,7 +6,9 @@ const FamilyCardStyles = styled.div`
   padding: 10px;
   margin: 20px 0; 
   box-shadow: 1px 1px 5px black;
+  background: white;
   h3{
+    color: green;
     padding: 5px 0;
   }
 `;

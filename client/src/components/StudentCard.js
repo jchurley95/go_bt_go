@@ -5,14 +5,11 @@ const StudentCard = (props) => {
 
     return (
         <div>
-
             <h3>{user.name}</h3>
-
-        <hr />
             <div>
                 <h3>Points: {user.points}</h3>
             </div>
-            
+            <hr />
         </div>
     );
 };

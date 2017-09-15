@@ -73,7 +73,7 @@ class GlobalNav extends Component {
             <h1>GOBTGO</h1>
         </Link>
         <div>
-            <Link to="/signup">Sign Up</Link>
+            {/* <Link to="/signup">Sign Up</Link> */}
             <Link to="/signin">Log In</Link>
         </div>
       </Nav>
