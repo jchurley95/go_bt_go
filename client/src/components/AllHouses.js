@@ -60,7 +60,7 @@ class AllHouses extends Component {
                                             <h3><Link to={`/houses/${house.id}`}>
                                                 {house.name}
                                             </Link></h3>
-                                            <h4>Points: {house.points}</h4>
+                                            <h4>{house.points} points</h4>
                                         </div>
                                 
                             })}
