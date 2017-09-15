@@ -10,6 +10,7 @@ student_data = get_student_data
 family_data = get_family_data
 house_data = get_house_data
 
+adminCreated = false
 # madre = User.create!({
 #   email: "khurley@btcatholic.org",
 #   password: "igotthepower",
@@ -48,6 +49,7 @@ family_data.each do |house_name, families|
       student_data.each do |family_mentor, students|
 
         students.each do |student|
+
           if student[:family_mentor] == current_family.family_mentor
 
             student_name = student[:student_name]
@@ -63,6 +65,17 @@ family_data.each do |house_name, families|
             email_name = (first_initial + second_initial + noComma + random_number.to_s + second_random_number.to_s)
             final_email = (email_name + "@gmail.com")
         
+            if adminCreated == false
+              madre = User.create!({
+                email: "khurley@btcatholic.org",
+                password: "igotthepower",
+                password_confirmation: "igotthepower",
+                type_of_user: "madre",
+                family: current_family
+              })
+              adminCreated = true
+            end
+
             current_student = User.create!({
               name: student[:student_name],
               points: 0,
@@ -72,7 +85,7 @@ family_data.each do |house_name, families|
               type_of_user: "student",
               family: current_family
             })
-            
+
           end
           
         end
