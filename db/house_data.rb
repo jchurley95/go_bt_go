@@ -118,7 +118,7 @@ def get_house_data
             house_motto: "For the Greater Glory of God",
             house_mascot: 'Xavier Cross and Crab',
             house_color: 'purple',
-            house_saint: 'St. John Vianney',
+            house_saint: 'St. Francis Xavier',
             house_motto_latin: "Ad Majorem Dei Gloriam" 
             #, saint_feast_day: 'December 3' 
         }
