@@ -35,7 +35,6 @@ class FamilyItem extends Component {
     render() {
         const headerStyle = {
             margin: '10px',
-            boxShadow: '0 0 15px 10px whitesmoke inset',
             height: '100px',
             display: 'flex',
             flexWrap: 'wrap',
