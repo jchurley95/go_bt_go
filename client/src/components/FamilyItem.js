@@ -36,8 +36,10 @@ class FamilyItem extends Component {
         const headerStyle = {
             margin: '10px',
             boxShadow: '0 0 15px 10px whitesmoke inset',
-            color: 'green'
-
+            height: '100px',
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center'
         };
         return (
             <div className="Family-page">
@@ -47,7 +49,7 @@ class FamilyItem extends Component {
                 :
                 <div>
 
-                    <div style={headerStyle}>
+                    <div style={headerStyle} className="FamilyHeader">
                         <h1>{this.state.family.family_mentor}</h1>
                     </div>
 

@@ -11,6 +11,7 @@ body {
   height: 100%;
   background-color: rgba(34, 240, 34, 0.03)
 }
+
 .AllEventsContainer {
   margin-top: 250px;
   height: 500px;
@@ -110,7 +111,16 @@ h3 {
 }
 
 .Family-page {
-  color: green;
+  color: white;
+}
+.FamilyHeader {
+  background-image: url('./images/Gold.png');
+  background-position: center;
+  color: white;
+}
+.FamilyCard {
+  background-image: url('./images/Gold.png');
+  background-position: center;
 }
 .student-card-container {
   display: flex;
@@ -118,17 +128,20 @@ h3 {
   justify-content: center;
 }
 .studentcard {
+  color: white;
   width: 30%;
   padding: 10px;
   margin: 20px; 
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 1px 5px 10px black;
+  background-image: url('./images/Gold.png');
+  background-position: center;
 }
 
 .AppEventCard {
   width: 30%;
   padding: 10px;
   margin: 20px; 
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 1px 5px 10px black;
 }
 
 .AppEventItem-Container {

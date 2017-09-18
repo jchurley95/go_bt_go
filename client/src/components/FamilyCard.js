@@ -7,8 +7,9 @@ const FamilyCardStyles = styled.div`
   margin: 20px 0; 
   box-shadow: 1px 1px 5px black;
   background: white;
+  
   h3{
-    color: green;
+    color: white;
     padding: 5px 0;
   }
 `;
@@ -18,7 +19,7 @@ const FamilyCard = (props) => {
   const family = props.family;
 
   return (
-    <FamilyCardStyles>
+    <FamilyCardStyles className="FamilyCard">
         
             <Link to={`/houses/${house.id}/families/${family.id}`}>
                 <h3>{family.family_mentor}</h3>

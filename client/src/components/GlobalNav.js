@@ -70,7 +70,7 @@ class GlobalNav extends Component {
     return (
       <Nav>
         <Link to="/">
-            <h1>GOBTGO</h1>
+            <h1 className="HomeLink">GOBTGO</h1>
         </Link>
         <div>
             {/* <Link to="/signup">Sign Up</Link> */}

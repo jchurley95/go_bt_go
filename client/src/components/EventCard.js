@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import moment from 'moment';
 
 const EventCardStyle = styled.div`
+
     padding: 10px;
     h2 {
         color: green;
