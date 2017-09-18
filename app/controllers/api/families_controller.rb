@@ -9,7 +9,7 @@ class Api::FamiliesController < ApplicationController
       def show
         @house = House.find(params[:house_id])
         @family = @house.families.find params[:id]
-        @users = @family.users.all
+        @users = @family.users.all.order(points: :desc)
     
         render json: {
           family: @family,
