@@ -5,8 +5,9 @@ import styled from 'styled-components';
 import StudentCard from './StudentCard'
 
 const FamilyItemHeader = styled.div`
-    border: 2px solid black;
-    border-radius: 10px;
+    // border: 2px solid black;
+    // border-radius: 10px;
+    // background-color: gold;
 `
 
 const FamilyListContainer = styled.div`
@@ -46,10 +47,15 @@ class FamilyItem extends Component {
         const headerStyle = {
             // background: {this.state.house.house_color},
             border: "2px solid black",
-            borderRadius: "10px"
+            borderRadius: "10px",
+            backgroundColor: 'green',
+            margin: '10px',
+            boxShadow: '0 0 15px 10px whitesmoke inset',
+            color: 'white'
+
         };
         return (
-            <div>
+            <div className="Family-page">
                 {this.state.redirect 
                 ? 
                     <Redirect to={'/'} />
@@ -60,12 +66,13 @@ class FamilyItem extends Component {
                         <h1>{this.state.family.family_mentor}</h1>
                     </div>
 
-                    {this.state.users.map((user) => {
+                    <div className="student-card-container">
+                        {this.state.users.map((user) => {
+                                
+                            return <StudentCard family={this.state.family} user={user} key={user.id}/>
                             
-                        return <StudentCard family={this.state.family} user={user} key={user.id}/>
-                        
-                    })}
-
+                        })}
+                    </div>
                     
                 </div>
                 }

@@ -4,12 +4,11 @@ const StudentCard = (props) => {
     const user = props.user
 
     return (
-        <div>
+        <div className="studentcard">
             <h3>{user.name}</h3>
             <div>
                 <h3>Points: {user.points}</h3>
             </div>
-            <hr />
         </div>
     );
 };
