@@ -4105,6 +4105,14 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-confirm-btn@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-confirm-btn/-/react-confirm-btn-1.1.1.tgz#5ea967a9aebd9ed1f1ebdebc03c5c08e2a70aa13"
+
+react-delete-confirm@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-delete-confirm/-/react-delete-confirm-1.0.1.tgz#727d61eef750872e93f8d6c8d0c5a6bfb4983d7f"
+
 read-cache@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/read-cache/-/read-cache-1.0.0.tgz#e664ef31161166c9751cdbe8dbcf86b5fb58f774"

@@ -43,11 +43,11 @@ export default class NewEvent extends Component {
             <form onSubmit={this._addEvent}>
                 <div>
                     <label htmlFor="event_name">Event Name: </label>
-                    <input onChange={this._handleChange} type="text" name="event_name" value={this.state.event.event_name} />
+                    <input onChange={this._handleChange} type="text" name="event_name" value={this.state.event.event_name} required/>
                 </div>
                 <div>
                     <label htmlFor="event_date">Date: </label>
-                    <input onChange={this._handleChange} type="text" name="event_date" value={this.state.event.event_date} />
+                    <input onChange={this._handleChange} type="text" name="event_date" value={this.state.event.event_date} required/>
                 </div>
                 <div>
                     <label htmlFor="event_time">Time: </label>
@@ -55,7 +55,7 @@ export default class NewEvent extends Component {
                 </div>
                 <div>
                     <label htmlFor="event_type">Type of Event: </label>
-                    <input onChange={this._handleChange} type="text" name="event_type" value={this.state.event.event_type} />
+                    <input onChange={this._handleChange} type="text" name="event_type" value={this.state.event.event_type} required/>
                 </div>
                 
                 <button>Add New Event</button>

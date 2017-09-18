@@ -11,6 +11,8 @@ class Api::EventsController < ApplicationController
 
   def create
     @event = Event.create(event_params)
+
+    
     redirect_to api_event_path(@event)
   end
 
