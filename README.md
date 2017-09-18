@@ -11,6 +11,7 @@
 
 ## Cool Features
 
+- Spinning Scoreboard
 ![gobtgo spinner](https://user-images.githubusercontent.com/28677283/30530948-f3457b4e-9c18-11e7-9170-369778602e43.png)
 
 ## Future Developments
