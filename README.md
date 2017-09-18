@@ -14,6 +14,12 @@
 
 ![gobtgo erd](https://user-images.githubusercontent.com/28677283/30530947-f3405aa6-9c18-11e7-9bc8-f0a899594a19.png)
 
+* Houses are broken down into Families (similar to homerooms)
+* Families are broken down into their individual students
+* Families inherit their points from their students
+* Houses inherit their points from their families
+* In future developments, there will probably exist a many-to-many relationship between Users and Events through an Attendence join table
+
 ## Cool Features
 
 #### Spinning Scoreboard
