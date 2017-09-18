@@ -20,6 +20,12 @@
 * Houses inherit their points from their families
 * In future developments, there will probably exist a many-to-many relationship between Users and Events through an Attendence join table
 
+## Wireframes
+
+![img_0711](https://user-images.githubusercontent.com/28677283/30531790-801eb3fa-9c1e-11e7-8292-1ecc47a10f53.JPG)
+
+![img_0710](https://user-images.githubusercontent.com/28677283/30531791-8022a122-9c1e-11e7-9711-f3b4f75d9e22.JPG)
+
 ## Cool Features
 
 #### Spinning Scoreboard
