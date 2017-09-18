@@ -4,17 +4,6 @@ import {Link, Redirect} from 'react-router-dom'
 import styled from 'styled-components';
 import StudentCard from './StudentCard'
 
-const FamilyItemHeader = styled.div`
-    // border: 2px solid black;
-    // border-radius: 10px;
-    // background-color: gold;
-`
-
-const FamilyListContainer = styled.div`
-// display: flex;
-// flex-wrapper: wrap;
-// justify-content: center;
-`
 
 class FamilyItem extends Component {
     constructor() {
@@ -45,13 +34,9 @@ class FamilyItem extends Component {
 
     render() {
         const headerStyle = {
-            // background: {this.state.house.house_color},
-            border: "2px solid black",
-            borderRadius: "10px",
-            backgroundColor: 'green',
             margin: '10px',
             boxShadow: '0 0 15px 10px whitesmoke inset',
-            color: 'white'
+            color: 'green'
 
         };
         return (

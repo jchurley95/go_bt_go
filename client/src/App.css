@@ -19,7 +19,6 @@ body {
 
 h1, h2 {
   font-family: 'Bungee Shade', cursive;
-  color: white;
 }
 
 h3 {
@@ -111,7 +110,7 @@ h3 {
 }
 
 .Family-page {
-  background-color: rgba(34, 240, 34, 0.2)
+  color: green;
 }
 .student-card-container {
   display: flex;
@@ -119,10 +118,27 @@ h3 {
   justify-content: center;
 }
 .studentcard {
-  color: black;
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-  border: 2px solid white;
-  padding: 5px;
+  width: 30%;
+  padding: 10px;
+  margin: 20px; 
+  box-shadow: 1px 1px 5px black;
+}
+
+.AppEventCard {
+  width: 30%;
+  padding: 10px;
+  margin: 20px; 
+  box-shadow: 1px 1px 5px black;
+}
+
+.AppEventItem-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.AppEventItem {
+  width: 50%;
+  padding: 10px;
+  margin: 20px; 
+  box-shadow: 1px 1px 5px black;
 }

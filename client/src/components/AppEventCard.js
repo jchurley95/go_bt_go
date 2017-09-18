@@ -18,7 +18,7 @@ const AppEventCard = (props) => {
   const event = props.event;
   const eventDate = moment(event.eventdate).add(1, 'day').format('LL')
   return (
-      <div>
+      <div className="AppEventCard">
         <EventCardStyles>
         <Link to={`/events/${event.id}`}>
             <h3>{event.event_name}</h3>

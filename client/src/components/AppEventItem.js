@@ -42,12 +42,12 @@ class CreatureItem extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="AppEventItem-Container">
         {this.state.redirect 
         ? 
             <Redirect to={'/'} />
         :
-            <div>
+            <div className="AppEventItem">
                 <h1>{this.state.event.event_name}</h1>
                 <p>{this.state.event.event_date}</p>
                 <p>{this.state.event.event_time}</p>

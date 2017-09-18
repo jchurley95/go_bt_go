@@ -7,7 +7,7 @@ import Coverflow from 'react-coverflow';
 import {StyleRoot} from 'radium';
 
 const HouseItemHeader = styled.div`
-h3 {
+h3, h4 {
     color: green;
 }
 `
@@ -83,10 +83,14 @@ class HouseItem extends Component {
             fontFamily: 'Fauna One, serif'
         }
         const headerStyle = {
-            margin: '10px'
+            margin: '10px',
+            color: 'white',
+            boxShadow: '0 0 10px 10px white inset'
         };
         const imageStyle = {
-            borderRadius: "10px"
+            borderRadius: "10px",
+            boxShadow: '0 0 10px 10px white inset',
+            height: '400px'
         }
         const descriptionStyle = {
             textOverflow: 'ellipsis'

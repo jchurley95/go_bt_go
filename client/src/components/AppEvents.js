@@ -54,7 +54,7 @@ class AppEvents extends Component {
                 </h2>
                 <EventContainer>
                     {this.state.events.map((event) => {
-                    return <div>
+                    return <div className="AppEventCard">
                                 <Link to={`/events/${event.id}`} style={LinkStyle}>
                                     <h3>{event.event_name}</h3>
                                 </Link>
