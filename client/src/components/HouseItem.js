@@ -62,19 +62,6 @@ class HouseItem extends Component {
     _sumHousePoints = () => {
         
     }
-
-    _deleteHouse = async (e) => {
-        e.preventDefault();
-        try {
-            const res = await axios.delete(`/api/houses/${this.props.match.params.id}`)
-            this.setState({redirect: true})
-            return res.data
-            
-
-        } catch(err) {
-            console.log(err)
-        }
-    }
     
 
     render() {
@@ -157,9 +144,6 @@ class HouseItem extends Component {
                     <hr />
 
                     <div>
-                        <Link to={`/houses/${this.props.match.params.id}/edit`}><button>Edit House</button></Link>
-                        <br/>
-                        <button onClick={this._deleteHouse}>Delete This House</button>
                     </div>
                 </div>
                 }
