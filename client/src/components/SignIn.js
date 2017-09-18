@@ -46,7 +46,6 @@ _signIn = async (e) => {
            <input onChange={this._handleChange} type="text" name="password" value={this.state.password} />
          </div>
          <button className="sign-button sign-in-button">Sign In</button>
-         <Link to="/signup">Sign Up</Link>
        </form>
      </div>
    );
