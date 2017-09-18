@@ -22,8 +22,6 @@ My High School operates on a House System, where students are sorted into one of
 
 * If type_of_user of the current user is "admin", they have full CRUD control over events
 
-![screen shot 2017-09-18 at 2 34 44 am](https://user-images.githubusercontent.com/28677283/30531117-1293c6c6-9c1a-11e7-9781-73110ba13e42.png)
-![screen shot 2017-09-18 at 2 34 53 am](https://user-images.githubusercontent.com/28677283/30531118-12954938-9c1a-11e7-8d66-08065cbc7499.png)
 ![screen shot 2017-09-18 at 2 35 03 am](https://user-images.githubusercontent.com/28677283/30531119-129551e4-9c1a-11e7-80f3-575ffa389e06.png)
 ![screen shot 2017-09-18 at 2 35 19 am](https://user-images.githubusercontent.com/28677283/30531120-129e335e-9c1a-11e7-847a-f6be4318b69a.png)
 
