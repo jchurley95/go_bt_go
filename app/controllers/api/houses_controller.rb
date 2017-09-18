@@ -1,6 +1,6 @@
 class Api::HousesController < ApplicationController
     def index
-        @houses = House.all 
+        @houses = House.all.order(points: :desc)
         render json: @houses
     end
   

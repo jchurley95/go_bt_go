@@ -2,7 +2,7 @@ class Api::UsersController < ApplicationController
     def index
         @house = House.find(params[:house_id])
         @family = @house.families.find params[:family_id]
-        @users = @family.users
+        @users = @family.users.order(points: :desc)
 
         render json: @users
       end

@@ -53,9 +53,9 @@ class FamilyItem extends Component {
 
                     <div className="student-card-container">
                         {this.state.users.map((user) => {
-                                
-                            return <StudentCard family={this.state.family} user={user} key={user.id}/>
-                            
+                            if (user.type_of_user == "student") {
+                                return <StudentCard family={this.state.family} user={user} key={user.id}/>
+                            }
                         })}
                     </div>
                     
