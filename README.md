@@ -2,7 +2,7 @@
 ##### Built using React + Rails, Postgres
 ![gobtgo home](https://user-images.githubusercontent.com/28677283/30530949-f346afaa-9c18-11e7-8e96-a2fadbbf5e95.png)
 
-## About
+## About the App
 
 ##### Built as my capstone project for General Assembly's Web Development Immersive program.
 
