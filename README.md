@@ -4,7 +4,11 @@
 
 ## About
 
-My High School operates on a House System, where students are sorted into one of 8 houses upon registering with the school. 
+##### Built as my capstone project for General Assembly's Web Development Immersive program.
+
+  The High School I attended operates on a House System, where students are sorted into one of 8 houses upon registering with the school. House members can earn points for their house by attending certain "Marquee" events throughout the year. For example, a Junior Varsity basketball game might have a packed student section if it is selected to be a "Marquee Event," and the school has tried various systems of counting these points. Originally, a sign up sheet would be passed around the student section, but this method did not provide any verification of actual attendence by a student, and points had to be tallied one at a time by hand. Currently, students drop their physical student ID in a box to verify their attendence at an event, which is still a flawed system prone to human error. 
+  
+  Currently, this application only provides a platform for students to keep up with the house leaderboard, upcoming house point events, and it also allows for an administrator to create, edit, and delete events from the database. This satisfies the project requirements, now the goal is to rebuild the app in React Native, in the process adding a barcode verification system between the house members and events.
 
 ## ERD 
 
