@@ -1,24 +1,9 @@
-# README
+# GOBTGO
+##### Built using React + Rails, Postgres
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About
 
-Things you may want to cover:
 
-* Ruby version
+## Cool Features
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Future Developments
