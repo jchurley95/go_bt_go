@@ -45,3 +45,5 @@
 
 * Convert to React Native
 * Add barcode generator for events/scanner for event attendees
+
+Trello: https://trello.com/b/suOp7k8k/wdi-capstone-gobtgo
